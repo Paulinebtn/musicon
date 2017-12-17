@@ -2,26 +2,161 @@
 <html lang="fr">
 <head>
 	<meta charset="UTF-8">
-	<title>Music on</title>
+	<title>Music on, personnalisez votre musique</title>
+	<meta name="description" content="Music on page d'accueil">
+	
+	<!--icones-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link href="css/themify-icons.css" rel="stylesheet">
 	<link rel="icon" type="image/png" href="img/logo-musicon.png">
+	
+	<!--forme & responsive-->
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
+
 <body>
-	<header>
+	
+	<header class="home">
 		<nav>
-			<a><img src="img/logo-musicon.png" alt="logo"></a>
+			<div><a href="#"><img src="img/logo-musicon.svg" alt="logo"></a></div>
 			<div>
-				<div></div>
-				<ul></ul>
+				<div class="header-RS">
+					<a href="#"><i class="ti-linkedin"></i></a>
+					<a href="#"><i class="ti-facebook"></i></a>
+					<a href="#"><i class="ti-instagram"></i></a>
+				</div>
+				<div>
+					<button class="create-music">Créer ma musique</button>
+					<button class="music-space">Mon espace musical</button>
+				</div>
 			</div>
 		</nav>
-		<h1></h1>
+		<div>
+			<h1>Collaborez, créez et écoutez votre musique en ligne</h1>
+		</div>
 	</header>
-	<div class="player"></div>
+	
+	<div class="player">
+		<div>
+			<div class="player-left">
+				<a href="#"><img src="img/player-img.png" alt="player-img" class="player-img" /></a>
+				<div>
+					<div>Nom musicien</div>
+					<div>Nom chanson</div>
+				</div>
+				<div>
+					<i class="fa fa-heart"></i>
+					<i class="fa fa-plus"></i>
+				</div>
+			</div>
+			<div class="player-middle">
+				<div></div>
+			</div>
+			<div class="player-right">
+				<div>
+					<i class="fa fa-random"></i></a>
+					<i class="fa fa-step-backward"></i>
+					<i class="fa fa-play"></i>
+					<i class="fa fa-step-forward"></i>
+					<i  class="fa fa-undo"></i>
+				</div>
+				<div>
+					<i class="fa fa-volume-off"></i>
+				</div>
+			</div>
+		</div>	
+	</div>
+	
 	<main>
+		
+		<section class="musician">
+			<h2>Découvrez nos musiciens</h2>
+			<p>Écoutez les tendances du moment et bien plus encore !</p>
+			<div>
+				<div class="musician-line">
+					<div id="musician-1"></div>
+					<div id="musician-2"></div>
+					<div id="musician-3"></div>
+					<div id="musician-4"></div>
+					<div id="musician-5"></div>
+				</div>
+				<div class="musician-line">
+					<div id="musician-6"></div>
+					<div id="musician-7"></div>
+					<div id="musician-8"></div>
+					<div id="musician-9"></div>
+					<div id="musician-10"></div>
+				</div>
+				<div class="musician-line">
+					<div id="musician-11"></div>
+					<div id="musician-12"></div>
+					<div id="musician-13"></div>
+					<div id="musician-14"></div>
+					<div id="musician-15"></div>
+				</div>
+			</div>
+			<div>
+				<button>Plus de musiciens</button>
+			</div>
+		</section>
+		
+		<section class="discover">
+			<div>
+				<div>
+					<h2>Vous êtes musicien ?</h2>
+					<div>His cognitis Gallus ut serpens adpetitus telo vel saxo iamque spes extremas opperiens et succurrens saluti suae quavis ratione colligi omnes iussit armatos et cum starent attoniti,districta dentium acie stridens adeste inquit viri fortes mihi periclitanti vobiscum.</div>
+					<button>Découvrir</button>
+				</div>
+				<div>
+					
+				</div>
+			</div>
+		</section>
+		
+		<section class="check-in">
+			<div>
+				<h2>Inscrivez-vous</h2>
+				<p>Que vous soyez mélomane ou musicien, inscrivez-vous et profitez de toutes nos fonctionnalités</p>
+				<button>Rejoignez-nous</button>
+			</div>
+		</section>
+	
 	</main>
+	
 	<footer>
+		<div>
+			<img src="img/logo-coupe.png" alt="small-logo">
+			<div>
+				<div class="contact">
+					<div>17 passage des panoramas</div>
+					<div>75002 Paris</div>
+					<div>06 45 65 45 65</div>
+				</div>
+				<div class="next-pages">
+					<div><a href="#">Qui sommes-nous?</a></div>
+					<div><a href="#">Mentions légales</a></div>
+					<div><a href="#">CGU</a></div>
+				</div>
+			</div>
+			<div>
+				<div><i class="fa fa-copyright"></i> Fait avec <i class="ti-heart"></i> par l'équipe Muzic on</div>
+				<div class="footer-RS">
+					<a href="#"><i class="ti-linkedin"></i></a>
+					<a href="#"><i class="ti-facebook"></i></a>
+					<a href="#"><i class="ti-instagram"></i></a>
+				</div>
+			</div>
+		</div>
+		<div>
+			<form>
+				<label>Contactez-nous</label>
+				<input type="text" placeholder="Nom">
+				<input type="text" placeholder="Email">
+				<textarea placeholder="Votre message"></textarea>
+				<button>Envoyer votre message</button>
+			</form>
+		</div>
 	</footer>
 </body>
 </html>
