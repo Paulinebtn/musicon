@@ -84,6 +84,7 @@ a {
     border: 0;
     cursor: pointer;
     outline: none;
+    border-radius: 5px;
 }
 
 .create-music {
@@ -370,6 +371,7 @@ h2 + p {
     box-shadow: 1px 3px 6px #c1c1c1;
     transition-duration: 0.4s;
     outline: none;
+    border-radius: 5px;
 }
 
 .musician button:hover {
@@ -421,6 +423,7 @@ h2 + p {
     box-shadow: 1px 3px 6px #c1c1c1;
     transition-duration: 0.4s;
     outline: none;
+    border-radius: 5px;
 }
 
 .discover button:hover {
@@ -455,9 +458,10 @@ h2 + p {
     transition-duration: 0.4s;
     outline: none;
     margin-top: 40px;
+    border-radius: 5px;
 }
 
-.check-in button: {
+.check-in button:hover {
     background-color: #ce06ce;	
 }
 
@@ -570,6 +574,7 @@ footer button {
     transition-duration: 0.4s;
     outline: none;
     margin-top: 16px;
+    border-radius: 5px;
 }
 
 ::-webkit-input-placeholder {
