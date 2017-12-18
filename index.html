@@ -16,7 +16,6 @@
 </head>
 
 <body>
-	
 	<header class="home">
 		<nav>
 			<div><a href="#"><img src="img/logo-musicon.svg" alt="logo"></a></div>
@@ -38,6 +37,7 @@
 	</header>
 	
 	<div class="player">
+		<audio src="" controls></audio>
 		<div>
 			<div class="player-left">
 				<a href="#"><img src="img/player-img.png" alt="player-img" class="player-img" /></a>
@@ -51,18 +51,35 @@
 				</div>
 			</div>
 			<div class="player-middle">
+				<div class="progress_value"></div>
 				<div></div>
 			</div>
 			<div class="player-right">
-				<div>
-					<i class="fa fa-random"></i></a>
-					<i class="fa fa-step-backward"></i>
-					<i class="fa fa-play"></i>
-					<i class="fa fa-step-forward"></i>
-					<i  class="fa fa-undo"></i>
+				<div class="controls_btns">
+					<button>
+						<i class="fa fa-random"></i>
+					</button>
+					<button class="btn-previous">
+						<i class="fa fa-step-backward"></i>
+					</button>
+					<button class="btn-play">
+                        <i class="fa fa-play"></i>
+                    </button>
+					<button class="btn-pause hidden">
+                        <i class="fa fa-pause"></i>
+                    </button>
+                    <button class="btn-next">
+                        <i class="fa fa-step-forward"></i>
+                    </button>
+					<button class="btn-loop">
+						<i  class="fa fa-undo"></i>
+					</button>
 				</div>
 				<div>
+					<button class="btn-muted">
 					<i class="fa fa-volume-off"></i>
+					</button>
+					<div class="progress_volum"></div>
 				</div>
 			</div>
 		</div>	
@@ -70,7 +87,7 @@
 	
 	<main>
 		
-		<section class="musician">
+		<section class="musician content">
 			<h2>Découvrez nos musiciens</h2>
 			<p>Écoutez les tendances du moment et bien plus encore !</p>
 			<div>
@@ -158,5 +175,6 @@
 			</form>
 		</div>
 	</footer>
+	<script src="js/script.js"></script>
 </body>
 </html>

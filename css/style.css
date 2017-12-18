@@ -19,6 +19,10 @@ a {
 	text-decoration: none;
 }
 
+audio {
+	visibility: hidden;
+	height: 0;
+}
 
 /* ---------- header ---------- */
 
@@ -127,10 +131,11 @@ a {
 .player {
 	height: 60px;
 	background-color: white;
-	opacity: 0.85;
+	opacity: 0.9;
 	position: relative;
 	z-index: 2;
 	top: -60px;
+	overflow: hidden;
 }
 
 .player > div {
@@ -139,6 +144,8 @@ a {
 	width: 90%;
 	height: 60px;
 	margin: auto;
+	position: relative;
+    top: -22px;
 }
 
 .player > div > div {
@@ -148,6 +155,19 @@ a {
 }
 .player-middle {
 	width: 40% !important;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition-duration: 0.4s;
+}
+
+.content {
+  padding: 16px;
+  padding-top: 60px;
 }
 
 /* gauche */
@@ -191,9 +211,17 @@ a {
 
 /* milieu */
 
-.player-middle  div {
+.player-middle > div:last-child {
 	width: 100%;
-	border-bottom: 1px solid black;
+	border-bottom: 2px solid lightgrey;
+	position: relative;
+	z-index: 2;
+}
+
+.progress_value {
+	border-bottom: 2px solid black;
+	position: relative;
+	z-index: 1;
 }
 
 /* droite */
@@ -217,16 +245,36 @@ a {
 	margin-left: 8%;
 }
 
-.player-right > div > i:nth-child(3) {
+.player-right > div > button:nth-child(3) > i {
 	font-size: 19px;
 }
 
-.player-right > div > i:nth-child(2), .player-right > div > i:nth-child(4) {
+.player-right > div > button:nth-child(4) > i {
+	font-size: 19px;
+}
+
+.player-right > div > button:nth-child(2) > i, .player-right > div > button::nth-child(4) > i {
 	font-size: 16px;
 }
 
-.player-right > div:last-child > i {
+.player-right > div:last-child button > i {
 	font-size: 22px;
+}
+
+.player-right button {
+	border: none;
+	outline: none;
+	margin: 4px;
+}
+
+.controls_btns button.hidden {
+    display: none;
+}
+
+.progress_volum {
+	width: 45px;
+    border-bottom: 2px solid lightgrey;
+    margin-left: 8px;
 }
 
 
