@@ -93,7 +93,7 @@ a {
 }
 
 .create-music:hover {
-	background-color: #b4d618;
+	background-color: #c1e808;
 }
 
 .music-space {
@@ -103,7 +103,7 @@ a {
 }
 
 .music-space:hover {
-	background-color: #ce06ce;
+	background-color: #eb08ec;
 
 }
 
@@ -375,7 +375,7 @@ h2 + p {
 }
 
 .musician button:hover {
-	background-color: #ce06ce;
+	background-color:#eb08ec;
 }
 
 /* ---------- section 2 : decouvrir ---------- */
@@ -427,7 +427,7 @@ h2 + p {
 }
 
 .discover button:hover {
-	background-color: #b4d618;
+	background-color: #c1e808;
 }
 
 /* ---------- section 2 : decouvrir ---------- */
@@ -462,7 +462,7 @@ h2 + p {
 }
 
 .check-in button:hover {
-    background-color: #ce06ce;	
+	background-color:#eb08ec;
 }
 
 /* ---------- footer ---------- */
@@ -476,6 +476,11 @@ footer {
 
 footer a {
 	color: white;
+	transition-duration: 0.4s;
+}
+
+footer a:hover {
+	color: #C802C9;
 }
 
 footer > div:first-child {
@@ -528,6 +533,11 @@ footer > div:last-child {
 
 .footer-RS a {
 	padding-left: 8px;
+	transition-duration: 0.4s;
+}
+
+.footer-RS a:hover {
+	color: #C802C9;
 }
 
 footer form {
@@ -545,6 +555,11 @@ footer input {
 	outline: none;
 	padding-bottom: 5px;
 	margin-bottom: 8px;
+	color: white;
+}
+
+footer input:focus {
+	border-bottom: 1px solid #C802C9;
 }
 
 footer textarea {
@@ -554,6 +569,11 @@ footer textarea {
 	border-bottom: 1px solid white;
 	outline: none;
 	resize: none;
+	color: white;
+}
+
+footer textarea:focus {
+	border-bottom: 1px solid #C802C9;
 }
 
 footer label { 
@@ -577,7 +597,11 @@ footer button {
     border-radius: 5px;
 }
 
+footer button:hover {
+	
+}
+
 ::-webkit-input-placeholder {
-  color: white;
+  color: lightgrey;
   font-size: 10px;
 }
