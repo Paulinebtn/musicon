@@ -163,11 +163,8 @@ audio {
   top: 0;
   width: 100%;
   transition-duration: 0.4s;
-}
-
-.content {
-  padding: 16px;
-  padding-top: 60px;
+  box-shadow: 0px 2px 6px #eaeaea;
+  opacity: 0.93;
 }
 
 /* gauche */
