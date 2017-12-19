@@ -16,6 +16,7 @@ var songs = [
         var btn_minus = document.querySelector('.btn-minus');
         var progress_value = document.querySelector('.progress_value');
         var loop = document.querySelector('.btn-loop');
+        var volum = document.querySelector('.btn-volum');
         var muted = document.querySelector('.btn-muted');
 
         player.src = songs[current_song];
@@ -71,8 +72,7 @@ var songs = [
             }
         });
 
-/*
-        btn_plus.addEventListener('click', function() {
+      /*  btn_plus.addEventListener('click', function() {
             var current_volume = player.volume;
             current_volume = ((current_volume * 10) + 1) / 10;
 
@@ -82,7 +82,7 @@ var songs = [
 
             player.volume = current_volume;
         });
-
+		
         btn_minus.addEventListener('click', function() {
             var current_volume = player.volume;
             current_volume = ((current_volume * 10) - 1) / 10;
@@ -93,13 +93,26 @@ var songs = [
 
             player.volume = current_volume;
         });
-        */
+		*/
         
         loop.addEventListener('click', function() {
 	       player.loop();
         });
         
-        muted.addEventListener('click', muted);
+        
+        
+        muted.addEventListener('click', function() {
+	        player.volume = 1;
+	        muted.classList.add('hidden');
+            volum.classList.remove('hidden');
+        });
+        
+        volum.addEventListener('click', function() {
+	        player.volume = 0;
+	        
+            volum.classList.add('hidden');
+            muted.classList.remove('hidden');
+        });
 
 // SCROLL
 

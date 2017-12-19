@@ -268,6 +268,10 @@ audio {
     display: none;
 }
 
+.controls_btns + div button.hidden {
+	display: none;	
+}
+
 .progress_volum {
 	width: 45px;
     border-bottom: 2px solid lightgrey;
