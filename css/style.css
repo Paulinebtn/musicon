@@ -262,6 +262,7 @@ audio {
 	border: none;
 	outline: none;
 	margin: 4px;
+	background-color: transparent;
 }
 
 .controls_btns button.hidden {
