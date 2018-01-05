@@ -24,6 +24,17 @@ audio {
 	height: 0;
 }
 
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+/* -------------------- PAGE : HOME -------------------- */
+
 /* ---------- header ---------- */
 
 .home {
@@ -654,4 +665,134 @@ footer button:hover {
 ::-webkit-input-placeholder {
   color: lightgrey;
   font-size: 10px;
+}
+
+
+/* -------------------- PAGE : MELOMANE -------------------- */
+
+.melomane {
+	display: flex;
+}
+
+/* ---------- Aside ---------- */
+
+.aside-melomane {
+	background-color: #25282D ;
+	height: 100%;
+	width: 19%;
+	position: fixed;
+}
+
+.aside-melomane > div:first-child {
+	padding: 30px 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.aside-melomane > div:first-child img {
+	width: 55%;
+}
+
+.aside-melomane > div:first-child i {
+	color: white;
+	font-size: 23px;
+}
+
+.aside-melomane ul li a img {
+	width: 10%;
+	padding-right: 20px;
+}
+
+.aside-melomane ul li a {
+	color: white;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	padding: 0px 20px;
+	transition-duration: 0.4s;
+}
+
+.aside-melomane ul li a:hover {
+ background-color: #33363A;
+}
+
+/* ---------- Search barre ---------- */
+
+.melomane main {
+	width: 81%;
+	margin-left: 19%;
+}
+
+.head-melomane {
+	width: 96%;
+	margin: auto;
+	padding-top: 30px;
+}
+
+.head-melomane > div:first-child {
+	display: flex;
+	justify-content: space-between;
+}
+
+.head-melomane > div:first-child button {
+	height: 45px;
+    width: 150px;
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+	border-radius: 5px;
+}
+
+.head-melomane > div:first-child div {
+	width: 100%;
+}
+
+.head-melomane > div:first-child input {
+	width: 96%;
+	border: 0;
+	border-bottom: 1px solid black;
+	padding: 16px 0px 10px 0px;
+	outline: none;
+	font-size: 15px;
+}
+
+.head-melomane > div:first-child input::placeholder {
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.head-melomane > div:first-child i {
+	position: relative;
+	right: 20px;
+}
+
+.head-melomane > div:last-child {
+	padding-top: 10px;
+}
+
+.head-melomane > div:last-child button {
+	width: 70px;
+	height: 35px;
+	margin-right: 5px;
+	background-color: white;
+	border-radius: 5px;
+	font-size: 12px;
+	outline: none;
+	cursor: pointer;
+}
+
+/* ---------- Tous les artistes ---------- */
+
+.ligne-artiste {
+	height: 210Px;
+	margin-top: 30px;
+	margin-left: 2%;
+}
+
+.ligne-artiste h2 {
+	text-align: left;
 }
