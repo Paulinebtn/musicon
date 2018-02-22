@@ -82,15 +82,27 @@ li {
     align-items: flex-end;
 }
 
+.header-RS + div {
+	display: flex;
+}
+
 .header-RS {
 	display: flex;
+}
+
+.header-RS + div > a:first-child {
+	margin-right: 7px;
+}
+
+.header-RS + div button {
+	box-shadow: none !important;
 }
 
 .header-RS a {
 	margin-left: 16px;
 }
 
-.home nav button {
+.button {
 	height: 45px;
     width: 150px;
     font-size: 12px;
@@ -99,7 +111,8 @@ li {
     border: 0;
     cursor: pointer;
     outline: none;
-    border-radius: 5px;
+	border-radius: 5px;
+	box-shadow: 1px 3px 6px #c1c1c1; 
 }
 
 .create-music {
@@ -113,13 +126,11 @@ li {
 
 .music-space {
 	background-color: #C802C9;
-	margin-left: 8px;
 	transition-duration: 0.5s;
 }
 
 .music-space:hover {
 	background-color: #eb08ec;
-
 }
 
 .home > div {
@@ -207,7 +218,7 @@ li {
 }
 
 .player i {
-	font-size: 13px;
+	font-size: 14px;
 	color: black;
 	transition-duration: 0.4s;
 	cursor: pointer;
@@ -215,6 +226,27 @@ li {
 
 .player i:hover {
 	color: #C802C9;
+}
+
+.button-vol {
+	width: 20%;
+}
+
+.button-vol i {
+	font-size: 22px !important;
+}
+
+.button-pm {
+	width: 10%;
+}
+
+.button-pm {
+	flex-direction: column;
+	justify-content: center !important;
+}
+
+.button-pm button {
+	margin: 2px !important;
 }
 
 /* milieu */
@@ -245,9 +277,6 @@ li {
 	width: 70%;
 }
 
-.player-right > div:last-child {
-	width: 30%;
-}
 
 .player-right i {
 	margin-left: 8%;
@@ -265,10 +294,6 @@ li {
 	font-size: 16px;
 }
 
-.player-right > div:last-child button > i {
-	font-size: 22px;
-}
-
 .player-right button {
 	border: none;
 	outline: none;
@@ -282,12 +307,6 @@ li {
 
 .controls_btns + div button.hidden {
 	display: none;	
-}
-
-.progress_volum {
-	width: 45px;
-    border-bottom: 2px solid lightgrey;
-    margin-left: 8px;
 }
 
 
@@ -472,24 +491,7 @@ h2 + p {
 	font-size: 14px;
 }
 
-.discover button {
-	height: 45px;
-    width: 150px;
-    font-size: 12px;
-    font-weight: 400;
-    color: white;
-    border: 0;
-    cursor: pointer;
-    background-color: #ACD003;
-    box-shadow: 1px 3px 6px #c1c1c1;
-    transition-duration: 0.4s;
-    outline: none;
-    border-radius: 5px;
-}
 
-.discover button:hover {
-	background-color: #c1e808;
-}
 
 /* ---------- section 2 : decouvrir ---------- */
 
@@ -507,24 +509,9 @@ h2 + p {
 }
 
 .check-in button {
-	height: 45px;
-    width: 150px;
-    font-size: 12px;
-    font-weight: 400;
-    color: white;
-    border: 0;
-    cursor: pointer;
-    background-color: #C802C9;
-    box-shadow: 1px 3px 6px #c1c1c1;
-    transition-duration: 0.4s;
-    outline: none;
     margin-top: 40px;
-    border-radius: 5px;
 }
 
-.check-in:hover {
-	background-color:#eb08ec;
-}
 
 /* ---------- footer ---------- */
 
@@ -677,9 +664,9 @@ footer button:hover {
 /* ---------- Aside ---------- */
 
 .aside-melomane {
-	background-color: #25282D ;
+	background-color: #16191F ;
 	height: 100%;
-	width: 19%;
+	width: 18%;
 	position: fixed;
 }
 
@@ -691,7 +678,7 @@ footer button:hover {
 }
 
 .aside-melomane > div:first-child img {
-	width: 55%;
+	width: 60%;
 }
 
 .aside-melomane > div:first-child i {
@@ -706,7 +693,7 @@ footer button:hover {
 
 .aside-melomane ul li a {
 	color: white;
-	height: 80px;
+	height: 65px;
 	display: flex;
 	align-items: center;
 	padding: 0px 20px;
@@ -714,37 +701,34 @@ footer button:hover {
 }
 
 .aside-melomane ul li a:hover {
- background-color: #33363A;
+ background-color: #25282D;
+}
+
+.aside-melomane span {
+	font-size: 15px;
 }
 
 /* ---------- Search barre ---------- */
 
 .melomane main {
-	width: 81%;
-	margin-left: 19%;
+	width: 82%;
+	margin-left: 18%;
+	position: absolute;
+    z-index: 1;
 }
 
 .head-melomane {
-	width: 96%;
-	margin: auto;
-	padding-top: 30px;
+	width: 82%;
+    padding-top: 20px;
+    background-color: white;
+    position: fixed;
 }
 
 .head-melomane > div:first-child {
 	display: flex;
 	justify-content: space-between;
-}
-
-.head-melomane > div:first-child button {
-	height: 45px;
-    width: 150px;
-    font-size: 12px;
-    font-weight: 400;
-    color: white;
-    border: 0;
-    cursor: pointer;
-    outline: none;
-	border-radius: 5px;
+	width: 95%;
+    margin: auto;
 }
 
 .head-melomane > div:first-child div {
@@ -772,6 +756,9 @@ footer button:hover {
 
 .head-melomane > div:last-child {
 	padding-top: 10px;
+	width: 95%;
+	margin: auto;
+	padding-bottom: 10px;
 }
 
 .head-melomane > div:last-child button {
@@ -785,6 +772,56 @@ footer button:hover {
 	cursor: pointer;
 }
 
+.melomane main > section:nth-child(2) {
+	margin-top: 140px;
+}
+
+/* ---------- Player melomane - musicien ---------- */
+
+.player2 {
+	height: 60px;
+    background-color: white;
+    opacity: 0.9;
+    position: fixed;
+    z-index: 2;
+	overflow: hidden;
+	width: 100%;
+	bottom: 0;
+	border-top: 1px solid lightgrey;
+}
+
+.player2 > div {
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+	height: 60px;
+	margin: auto;
+	position: relative;
+    top: -22px;
+}
+
+.player2 > div > div {
+	display: flex;
+	align-items: center;
+	width: 30%;
+}
+
+.player2 img {
+	height: 50px;
+	width: 55px;
+}
+
+.player2 i {
+	font-size: 14px;
+	color: black;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+.player2 i:hover {
+	color: #C802C9;
+}
+
 /* ---------- Tous les artistes ---------- */
 
 .ligne-artiste {
@@ -796,3 +833,4 @@ footer button:hover {
 .ligne-artiste h2 {
 	text-align: left;
 }
+

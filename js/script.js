@@ -72,7 +72,7 @@ var songs = [
             }
         });
 
-      /*  btn_plus.addEventListener('click', function() {
+      btn_plus.addEventListener('click', function() {
             var current_volume = player.volume;
             current_volume = ((current_volume * 10) + 1) / 10;
 
@@ -93,7 +93,7 @@ var songs = [
 
             player.volume = current_volume;
         });
-		*/
+		
         
         loop.addEventListener('click', function() {
 	       player.loop();
