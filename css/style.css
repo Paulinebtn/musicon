@@ -886,9 +886,17 @@ footer button:hover {
     white-space: nowrap;
 }
 .artists > div {
-	height: 150px;
-	width: 190px;
+	height: 160px;
+    width: 190px;
 	background-color: red;
 	display: inline-block;
 	margin-right: 10px;
+}
+
+.artists img {
+	height: 160px;
+}
+
+.artists .anim-img .content-anim {
+	margin-top: 30px !important;
 }
