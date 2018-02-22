@@ -330,7 +330,6 @@ h2 + p {
 }
 
 /* photos */
-
 .musician-line {
 	display: flex;
 	justify-content: space-between;
@@ -338,98 +337,13 @@ h2 + p {
 }
 
 .musician-line > div {
-	width: 18%;
+	width: 240px;
 	height: 200px;
 }
 
-#musician-1 {
-	background: url(../img/musician1.png) no-repeat;
-	background-size: cover;
-	background-position: center;
-}
-
-#musician-2 {
-	background: url(../img/musician2.png) no-repeat;
-	background-size: cover;
-	background-position: center;
-}
-
-#musician-3 {
-	background: url(../img/musician3.png) no-repeat;
-	background-size: cover;
-	background-position: center;
-}
-
-#musician-4 {
-	background: url(../img/musician4.png) no-repeat;
-	background-size: cover;
-	background-position: center;
-}
-
-#musician-5 {
-	background: url(../img/musician5.png) no-repeat;
-	background-size: cover;
-	background-position: center;
-}
-
-#musician-6 {
-	background: url(../img/musician6.png) no-repeat;
-	background-size: cover;
-	background-position: center;
-}
-
-#musician-7 {
-	background: url(../img/musician7.png) no-repeat;
-	background-size: cover;
-	background-position: center;
-}
-
-#musician-8 {
-	background: url(../img/player-img.png) no-repeat;
-	background-size: cover;
-	background-position: center;
-}
-
-#musician-9 {
-	background: url(../img/musician9.png) no-repeat;
-	background-size: cover;
-	background-position: center;
-}
-
-#musician-10 {
-	background: url(../img/musician10.png) no-repeat;
-	background-size: cover;
-	background-position: center;
-}
-
-#musician-11 {
-	background: url(../img/musician11.png) no-repeat;
-	background-size: cover;
-	background-position: center;
-}
-
-#musician-12 {
-	background: url(../img/musician12.png) no-repeat;
-	background-size: cover;
-	background-position: center;
-}
-
-#musician-13 {
-	background: url(../img/musician13.png) no-repeat;
-	background-size: cover;
-	background-position: center;
-}
-
-#musician-14 {
-	background: url(../img/musician14.png) no-repeat;
-	background-size: cover;
-	background-position: center;
-}
-
-#musician-15 {
-	background: url(../img/musician15.png) no-repeat;
-	background-size: cover;
-	background-position: center;
+.musician-line img {
+	width: 240px;
+	height: 200px;
 }
 
 .musician > div:last-child {
@@ -439,23 +353,154 @@ h2 + p {
 	padding-bottom: 80px;
 }
 
-.musician button {
-	height: 45px;
-    width: 150px;
-    font-size: 12px;
-    font-weight: 400;
-    color: white;
-    border: 0;
-    cursor: pointer;
-    background-color: #C802C9;
-    box-shadow: 1px 3px 6px #c1c1c1;
-    transition-duration: 0.4s;
-    outline: none;
-    border-radius: 5px;
+
+/* animation sur les images du menu */
+.anim-img {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin: 0;
+    width: 100%;
+    color: #ffffff;
+    font-size: 16px;
+	text-align: left;
+	outline: none;
+}
+.anim-img * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+.anim-img:before {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  top: 100%;
+  content: '';
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  -webkit-transition-delay: 0.25s;
+  transition-delay: 0.25s;
+}
+.anim-img img {
+  vertical-align: top;
+  max-width: 100%;
+  backface-visibility: hidden;
+  width: 100%;
+}
+.anim-img figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.anim-img span,
+.anim-img .content-anim {
+  margin: 0;
+  opacity: 0;
+  letter-spacing: 1px;
+}
+.anim-img span {
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  text-transform: uppercase;
+  font-weight: 400;
+  -webkit-transition-delay: 0.05s;
+  transition-delay: 0.05s;
+  margin-bottom: 5px;
+}
+.anim-img .content-anim {
+  font-weight: normal;
+  padding: 3px 10px;
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+  margin-top: 50px;
+  font-size: 16px;
+  width: 100%;
+  height: 45px;
+  color: white;
 }
 
-.musician button:hover {
-	background-color:#eb08ec;
+.anim-img:hover:before,
+.anim-img.hover:before {
+  top: 0px;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+.anim-img:hover span,
+.anim-img.hover span,
+.anim-img:hover .content-anim,
+.anim-img.hover .content-anim {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  opacity: 1;
+}
+.anim-img:hover span,
+.anim-img.hover span {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+.anim-img:hover .content-anim,
+.anim-img.hover .content-anim {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
+.anim-img span button {
+	background: transparent;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	color: white;
+	padding: 0px 40px 0px 40px;
+}
+
+.anim-img span button.hidden {
+	display: none;
+}
+
+.anim-img span button i {
+	font-size: 30px;
+}
+
+.content-anim {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.content-anim > div {
+	font-size: 12px;
+}
+
+.content-anim  i {
+	font-size: 14px !important;
+	cursor: pointer;
+	padding-left: 5px;
+}
+
+.name-mus {
+	font-weight: bold;
+}
+
+.anim-img i {
+	transition-duration: 0.3s;
+}
+
+.anim-img i:hover{
+	color: #C802C9;
 }
 
 /* ---------- section 2 : decouvrir ---------- */
@@ -774,6 +819,7 @@ footer button:hover {
 
 .melomane main > section:nth-child(2) {
 	margin-top: 140px;
+	margin-bottom: 80px;
 }
 
 /* ---------- Player melomane - musicien ---------- */
@@ -826,11 +872,23 @@ footer button:hover {
 
 .ligne-artiste {
 	height: 210Px;
-	margin-top: 30px;
+	margin-top: 22px;
 	margin-left: 2%;
 }
 
 .ligne-artiste h2 {
 	text-align: left;
+	margin-bottom: 10px;
 }
-
+.artists {
+	
+	overflow: auto;
+    white-space: nowrap;
+}
+.artists > div {
+	height: 150px;
+	width: 190px;
+	background-color: red;
+	display: inline-block;
+	margin-right: 10px;
+}
