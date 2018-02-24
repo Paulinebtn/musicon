@@ -33,13 +33,13 @@
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="#" id="messagerie">
                     <img src="icon/music-player.svg" alt="compte">
                     <span>Messagerie</span>
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="#" id="mon_compte">
                     <img src="icon/music-player.svg" alt="compte">
                     <span>Mon compte</span>
                 </a>
