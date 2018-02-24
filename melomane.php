@@ -27,19 +27,19 @@
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="#" id="bandes_collab">
                     <img src="icon/music-player.svg" alt="bandes-sons">
                     <span>Bandes sons collaboratives</span>
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="#" id="mes_playlists">
                     <img src="icon/music-player.svg" alt="playlists">
                     <span>Mes playlists</span>
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="#" id="mon_compte">
                     <img src="icon/music-player.svg" alt="compte">
                     <span>Mon compte</span>
                 </a>
