@@ -2,7 +2,8 @@
 
 var songs = [
             'song/song1.mp3',
-            'song/song2.mp3'
+            'song/song2.mp3',
+            'song/song3.mp3'
         ];
 
         var current_song = 0;
