@@ -19,4 +19,4 @@ function selectAll($table){
   return $rows;
 }
 
-// Changement de Alexandre 
+// Changement de Alexandre
