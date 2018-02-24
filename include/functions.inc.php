@@ -18,9 +18,6 @@ function selectAll($table){
 
   return $rows;
 }
-
-<<<<<<< HEAD
 // Changement de Alexandre
-=======
+
 //Non
->>>>>>> 46306365971c67fee813668a8384047007d27289
