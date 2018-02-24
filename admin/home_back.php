@@ -11,6 +11,19 @@ if(!isset($_SESSION['login']))
 
 include($_SERVER['DOCUMENT_ROOT']. '/musicon/include/functions.inc.php');
 
+// SUPPRESSION DES MESSAGES
+
+if(isset($_GET))
+{
+  if(!empty($_GET['del']))
+  {
+    $delete = $pdo->prepare('DELETE FROM muzicon_messages WHERE id_message =' . $_GET['del']);
+    $delete->execute();
+
+    $confirmation = '<h3 class="center red-text">Message effacé</h3>';
+  }
+}
+
 $messages = selectAll('muzicon_messages');
 
 ?>
@@ -34,6 +47,8 @@ $messages = selectAll('muzicon_messages');
         <h2>Messages reçus</h2>
       </div>
 
+      <?php if(!empty($confirmation)){echo $confirmation;} ?>
+
       <table>
         <thead>
           <tr>
@@ -52,7 +67,7 @@ $messages = selectAll('muzicon_messages');
               <td><?= htmlspecialchars($value['email_message']) ?></td>
               <td><?= htmlspecialchars($value['contenu_message']) ?></td>
               <td><?= $value['date_message'] ?></td>
-              <td>Supprimer</td>
+              <td><a onclick="return confirm('vous sur de vouloir supprimer ce message ?')" href="home_back.php?del=<?= $value['id_message'] ?>">Supprimer</a></td>
             </tr>
           <?php endforeach; ?>
         </tbody>
