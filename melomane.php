@@ -23,7 +23,7 @@
             <li>
                 <a href="#">
                     <img src="icon/music-player.svg" alt="artistes">
-                    <span>Tous les artistes</span>
+                    <span id="artiste_all">Tous les artistes</span>
                 </a>
             </li>
             <li>
@@ -315,6 +315,8 @@
 			</div>
 		</div>	
     </div>
+    <script src="js/jquery.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/changement_page.js"></script>
 </body>
 </html>

@@ -127,6 +127,8 @@
 			</div>
 		</div>	
     </div>
+    <script src="js/jquery.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/changement_page.js"></script>
 </body>
 </html>
