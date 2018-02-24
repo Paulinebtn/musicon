@@ -48,10 +48,10 @@ $messages = selectAll('muzicon_messages');
           <?php foreach($messages as $key => $value) : ?>
             <tr>
               <td><?= $value['id_message'] ?></td>
-              <td><?= $value['date_message'] ?></td>
               <td><?= htmlspecialchars($value['nom_message']) ?></td>
               <td><?= htmlspecialchars($value['email_message']) ?></td>
               <td><?= htmlspecialchars($value['contenu_message']) ?></td>
+              <td><?= $value['date_message'] ?></td>
               <td>Supprimer</td>
             </tr>
           <?php endforeach; ?>
