@@ -17,7 +17,7 @@
 <body class="melomane">
     <aside class="aside-melomane">
         <div>
-            <a href="index.html"><img src="img/logo-coupe.png" alt="logo"></a>
+            <a href="index.php"><img src="img/logo-coupe.png" alt="logo"></a>
         </div>
         <ul>
             <li>
@@ -54,7 +54,7 @@
                     <input type="text" placeholder="Rechercher un artiste, un genre, une musique, un instrument…">
                     <i class="ti-search"></i>
                 </div>
-                <a href="melomane.html"><button class="music-space button">Écouter de la musique</button></a>
+                <a href="melomane.php"><button class="music-space button">Écouter de la musique</button></a>
             </div>
             <div>
                 <button>Sortie</button>
