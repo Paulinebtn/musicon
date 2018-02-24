@@ -475,12 +475,12 @@
 			</div>
 		</div>
 		<div>
-			<form method="post" action="traitements/traitement_message.php">
+			<form method="post" action="traitements/traitement_messages.php">
 				<label>Contactez-nous</label>
 				<input id="nom" name="nom" type="text" placeholder="Nom">
 				<input id="email" name="email" type="email" placeholder="Email">
 				<textarea id="contenu" name="contenu" placeholder="Votre message"></textarea>
-				<button type="submit" name="envoyer">Envoyer votre message</button>
+				<button type="submit" name="message">Envoyer votre message</button>
 			</form>
 		</div>
 	</footer>
