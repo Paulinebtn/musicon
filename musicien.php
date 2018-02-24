@@ -21,13 +21,13 @@
         </div>
         <ul>
             <li>
-                <a href="#">
+                <a href="#" id="mes_creations">
                     <img src="icon/music-player.svg" alt="bandes-sons">
                     <span>Mes créations</span>
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="#" id="outil_creation">
                     <img src="icon/music-player.svg" alt="playlists">
                     <span>Outil de création</span>
                 </a>
