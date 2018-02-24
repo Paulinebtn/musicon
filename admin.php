@@ -1,12 +1,14 @@
 <?php
-require_once('../include/init.inc.php'); //Connexion à la base
+require_once('include/init.inc.php'); //Connexion à la base
 
-/*
-if($_SESSION['login'])
+
+if(isset($_SESSION['login']))
 {
   header('Location:admin/home_back.php');
 }
 
+
+//Gestion des messages (Deconnexion / Redirection)
 if(isset($_GET))
 {
   if(!empty($_GET['action']) && $_GET['action'] === 'logout')
@@ -19,11 +21,12 @@ if(isset($_GET))
   }
 }
 
+//Gestion de la connexion
 if($_POST)
 {
   if(!empty($_POST['login']) && !empty($_POST['password']))
   {
-    $check = $pdo->prepare('SELECT * FROM info_login WHERE login = :login');
+    $check = $pdo->prepare('SELECT * FROM m_admin_user WHERE login = :login');
     $check->bindValue(':login', $_POST['login'], PDO::PARAM_STR);
     $check->execute();
 
@@ -44,25 +47,26 @@ if($_POST)
     $confirmation = '<h3 class="center red-text">Veuillez remplir tous les champs !</h3>';
   }
 }
-*/
 
-echo $_SERVER['DOCUMENT_ROOT'];
+
+//echo $_SERVER['DOCUMENT_ROOT'];
 
 ?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="utf-8">
+  <title>Connexion administrateur</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 <body>
 
   <main>
     <div>
-      <h1>Bienvenue dans le Back Office</h1>
+      <h1>Connexion au Back Office</h1>
     </div>
 
-    <?php// if(!empty($confirmation)){echo $confirmation;} ?>
+    <?php if(!empty($confirmation)){echo $confirmation;} ?>
 
     <section>
         <form method="post" action="#">
