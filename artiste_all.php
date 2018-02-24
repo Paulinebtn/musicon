@@ -1,22 +1,19 @@
-<main>
-    <div class="head-melomane">
+<div class="head-melomane">
+    <div>
         <div>
-            <div>
-                <input type="text" placeholder="Rechercher un artiste, un genre, une musique, un instrument…">
-                <i class="ti-search"></i>
-            </div>
-            <a href="musicien.php"><button class="create-music button">Créer ma musique</button></a>
+            <input type="text" placeholder="Rechercher un artiste, un genre, une musique, un instrument…">
+            <i class="ti-search"></i>
         </div>
-        <div>
-            <button>Sortie</button>
-            <button>Genre</button>
-            <button>Top</button>
-            <button>Mood</button>
-            <button>Instru</button>
-        </div>
+        <a href="musicien.php"><button class="create-music button">Créer ma musique</button></a>
     </div>
-    <section>
-        AFFICHAGE DE TOUS LES ARTISTES
-    </section>
-
-</main>
+    <div>
+        <button>Sortie</button>
+        <button>Genre</button>
+        <button>Top</button>
+        <button>Mood</button>
+        <button>Instru</button>
+    </div>
+</div>
+<section>
+    AFFICHAGE DE TOUS LES ARTISTES
+</section>

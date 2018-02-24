@@ -21,9 +21,9 @@
         </div>
         <ul>
             <li>
-                <a href="#">
+                <a href="#"  id="artiste_all">
                     <img src="icon/music-player.svg" alt="artistes">
-                    <span id="artiste_all">Tous les artistes</span>
+                    <span>Tous les artistes</span>
                 </a>
             </li>
             <li>
