@@ -25,8 +25,8 @@
 					<a href="#"><i class="ti-instagram"></i></a>
 				</div>
 				<div>
-					<a href="musicien.html"><button class="create-music button">Créer ma musique</button></a>
-					<a href="melomane.html"><button class="music-space button">Mon espace musical</button></a>
+					<a href="musicien.php"><button class="create-music button">Créer ma musique</button></a>
+					<a href="melomane.php"><button class="music-space button">Mon espace musical</button></a>
 				</div>
 			</div>
 		</nav>
@@ -423,7 +423,7 @@
 				</div>
 			</div>
 			<div>
-				<a href="melomane.html"><button class="music-space button">Plus de musiciens</button></a>
+				<a href="melomane.php"><button class="music-space button">Plus de musiciens</button></a>
 			</div>
 		</section>
 		
@@ -432,7 +432,7 @@
 				<div>
 					<h2>Vous êtes musicien ?</h2>
 					<div>His cognitis Gallus ut serpens adpetitus telo vel saxo iamque spes extremas opperiens et succurrens saluti suae quavis ratione colligi omnes iussit armatos et cum starent attoniti,districta dentium acie stridens adeste inquit viri fortes mihi periclitanti vobiscum.</div>
-					<a href="musicien.html"><button class="create-music button">Découvrir</button></a>
+					<a href="musicien.php"><button class="create-music button">Découvrir</button></a>
 				</div>
 				<div>
 					
@@ -444,7 +444,7 @@
 			<div>
 				<h2>Inscrivez-vous</h2>
 				<p>Que vous soyez mélomane ou musicien, inscrivez-vous et profitez de toutes nos fonctionnalités</p>
-				<a href="contact.html"><button class="music-space button">Rejoignez-nous</button></a>
+				<a href="contact.php"><button class="music-space button">Rejoignez-nous</button></a>
 			</div>
 		</section>
 	
