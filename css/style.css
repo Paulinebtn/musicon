@@ -916,6 +916,10 @@ footer button:hover {
 
 /* ---- 3) Mes playlists ---- */
 
+.playlist {
+	display: none;	/* Supprimer cette balise pour faire apparaitre la section "bande son" */
+}
+
 .playlist .button {
 	margin-bottom: 20px;
 	margin-top: 10px;
@@ -929,6 +933,16 @@ footer button:hover {
 .playlist .artists > div {
 	margin-top: 20px;
 }
+
+/* ---- 3) Mon compte ---- */
+
+.playlist {
+	display: none;	/* Supprimer cette balise pour faire apparaitre la section "bande son" */
+}
+
+/* -------------------- PAGE : MUSICIEN -------------------- */
+
+
 
 /* ---------------- MESSAGES DE CONFIRMATION ----------------- */
 
