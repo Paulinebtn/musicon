@@ -700,7 +700,7 @@ footer button:hover {
 }
 
 
-/* -------------------- PAGE : MIXTE -------------------- */
+/* -------------------- PAGE : MIXTE MELOMANE MUSICIEN -------------------- */
 
 .melomane {
 	display: flex;
@@ -818,12 +818,12 @@ footer button:hover {
 	cursor: pointer;
 }
 
-.melomane main > section:nth-child(2) {
+.melomane main > section{
 	margin-top: 140px;
-	margin-bottom: 80px;
+	margin-bottom: 100px;
 }
 
-/* ---------- Player melomane - musicien ---------- */
+/* ---------- Player mixte ---------- */
 
 .player2 {
 	height: 60px;
@@ -871,14 +871,14 @@ footer button:hover {
 
 /* -------------------- PAGE : MELOMANE -------------------- */
 
-/* ---------- Tous les artistes ---------- */
+/* ----- 1) Tous les artistes ---- */
 
 .list-artist {
-	display: none;
+	display: none;	/* Supprimer cette balise pour faire apparaitre la section "tous les artistes" */
 }
 
 .ligne-artiste {
-	height: 210Px;
+	height: 210px;
 	margin-top: 22px;
 	margin-left: 2%;
 }
@@ -908,6 +908,27 @@ footer button:hover {
 	margin-top: 30px !important;
 }
 
+/* ---- 2) Bandes sons collab ---- */
+
+.sound-band {
+	display: none;	/* Supprimer cette balise pour faire apparaitre la section "bande son" */
+}
+
+/* ---- 3) Mes playlists ---- */
+
+.playlist .button {
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+.playlist .artists {
+	overflow: hidden;
+	white-space: normal;
+}
+
+.playlist .artists > div {
+	margin-top: 20px;
+}
 
 /* ---------------- MESSAGES DE CONFIRMATION ----------------- */
 
