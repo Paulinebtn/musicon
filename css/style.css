@@ -148,7 +148,7 @@ li {
 }
 
 
-/* ---------- player ---------- */
+/* ---------- player home ---------- */
 
 .player {
 	height: 60px;
@@ -823,7 +823,7 @@ footer button:hover {
 	margin-bottom: 100px;
 }
 
-/* ---------- Player mixte ---------- */
+/* ---------- Player2 mélomane - musicien ---------- */
 
 .player2 {
 	height: 60px;
@@ -871,7 +871,7 @@ footer button:hover {
 
 /* -------------------- PAGE : MELOMANE -------------------- */
 
-/* ----- 1) Tous les artistes ---- */
+/* 1) Tous les artistes */
 
 .ligne-artiste {
 	height: 210px;
@@ -891,7 +891,7 @@ footer button:hover {
 .artists > div {
 	height: 160px;
     width: 190px;
-	background-color: red;
+	background-color: white;
 	display: inline-block;
 	margin-right: 10px;
 }
@@ -904,10 +904,10 @@ footer button:hover {
 	margin-top: 30px !important;
 }
 
-/* ---- 2) Bandes sons collab ---- */
+/* 2) Bandes sons collab */
 
 
-/* ---- 3) Mes playlists ---- */
+/* 3) Mes playlists */
 
 .playlist .button {
 	margin-bottom: 20px;
@@ -923,11 +923,13 @@ footer button:hover {
 	margin-top: 20px;
 }
 
-/* ---- 3) Mon compte ---- */
+/* 3) Mon compte */
 
 .account {
 	margin: 0 !important;
 }
+
+
 
 /* -------------------- PAGE : MUSICIEN -------------------- */
 
