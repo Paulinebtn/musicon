@@ -976,7 +976,7 @@ display:inline-block;
 	border-radius: 5px;
 }
 
-.connexion main > div:first-child {
+.title-co {
 	font-size: 16px;
 	font-weight: bold;
 	padding: 20px;
@@ -1086,3 +1086,123 @@ display:inline-block;
 }
 
 /* -------------------- PAGE : INSCRIPTION -------------------- */
+
+.inscription {
+	background-color: rgba(255, 255, 255, 0.84);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.inscription main {
+	width: 30%;
+	height: 400px;
+	background-color: white;
+	box-shadow: 0px 0px 10px #c1c1c1;
+	border-radius: 5px;
+}
+
+.inscription form {
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+}
+
+.inscription main > div {
+	width: 80%;
+	margin: auto;
+}
+
+.inscription main > a {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.inscription input {
+	height: 30px;
+	outline: none;
+	border: 0;
+	border-bottom: 1px solid black;
+}
+
+.inscription input:focus {
+	border-bottom: 1Px solid #C802C9;
+}
+.inscription input::placeholder {
+	color: black;
+	font-size: 12px;
+}
+
+.margin-insc {
+	margin-top: 20px;
+}
+
+.inscription-choice {
+	height: 100px;
+	display: flex;
+	align-items: center;
+}
+
+.inscription-choice > button {
+	display: flex;
+	align-items: center;
+	border: 0;
+	background-color: transparent;
+	cursor: pointer;
+	outline: none;
+	transition-duration: 0.4s;
+}
+
+.circle {
+	background-color: red;
+	height: 50px;
+	width: 52px;
+	border-radius: 50%;
+	margin-right: 10px;
+	transition-duration: 0.4s;
+}
+
+.circle + div {
+	font-size: 13px;
+	text-align: left;
+}
+
+#circle-img1 {
+	background: url(../img/musicien-icon.png);
+	background-position: center;
+	background-size: cover;
+	filter: grayscale(100%);
+}
+
+#circle-img2 {
+	background: url(../img/melomane-icon.png);
+	background-position: center;
+	background-size: cover;
+	filter: grayscale(100%);
+}
+
+.inscription-choice > button:hover {
+	color: #C802C9;
+}
+
+.inscription-choice > button:focus {
+	color: #C802C9;
+}
+
+.inscription-choice > button:hover #circle-img1 {
+	filter: none;
+}
+
+.inscription-choice > button:focus #circle-img1 {
+	filter: none;
+}
+
+.inscription-choice > button:hover #circle-img2 {
+	filter: none;
+}
+
+.inscription-choice > button:focus #circle-img2 {
+	filter: none;
+}
