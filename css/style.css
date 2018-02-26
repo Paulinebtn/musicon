@@ -700,7 +700,7 @@ footer button:hover {
 }
 
 
-/* -------------------- PAGE : MELOMANE -------------------- */
+/* -------------------- PAGE : MIXTE -------------------- */
 
 .melomane {
 	display: flex;
@@ -766,7 +766,8 @@ footer button:hover {
 	width: 82%;
     padding-top: 20px;
     background-color: white;
-    position: fixed;
+	position: fixed;
+	z-index: 5;
 }
 
 .head-melomane > div:first-child {
@@ -868,7 +869,13 @@ footer button:hover {
 	color: #C802C9;
 }
 
+/* -------------------- PAGE : MELOMANE -------------------- */
+
 /* ---------- Tous les artistes ---------- */
+
+.list-artist {
+	display: none;
+}
 
 .ligne-artiste {
 	height: 210Px;
