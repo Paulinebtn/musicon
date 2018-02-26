@@ -1,3 +1,22 @@
+<?php
+
+if(isset($_GET))
+{
+  if(!empty($_GET['msg']) && $_GET['msg'] === 'ok')
+  {
+    $confirmation = '<div class="confirmOk">
+    										<div>Votre message a bien été envoyé !</div>
+    								</div>';
+  }
+  else if(!empty($_GET['msg']) && $_GET['msg'] === 'nok')
+  {
+    $confirmation = '<div class="confirmNok">
+    										<div>Erreur : Votre message n\'a pas pu être envoyé...</div>
+    								</div>';
+  }
+}
+
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -30,7 +49,8 @@
 				</div>
 			</div>
 		</nav>
-		<div>
+		<?php if(!empty($confirmation)){echo $confirmation;} ?>
+		<div id="mainTitle">
 			<h1>Collaborez, créez et écoutez votre musique en ligne</h1>
 		</div>
 	</header>

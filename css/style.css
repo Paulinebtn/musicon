@@ -133,7 +133,7 @@ li {
 	background-color: #eb08ec;
 }
 
-.home > div {
+.home > div#mainTitle {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -899,4 +899,29 @@ footer button:hover {
 
 .artists .anim-img .content-anim {
 	margin-top: 30px !important;
+}
+
+
+/* ---------------- MESSAGES DE CONFIRMATION ----------------- */
+
+.confirmOk, .confirmNok{
+display:flex;
+justify-content: center;
+}
+
+
+.confirmOk > div{
+background-color:green;
+color:white;
+padding:10px;
+border-radius:5px;
+display:inline-block;
+}
+
+.confirmNok > div{
+background-color:red;
+color:white;
+padding:10px;
+border-radius:5px;
+display:inline-block;
 }
