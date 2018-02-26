@@ -1,4 +1,6 @@
-<div>
-    Affichage des données de mon compte avec la possibilité de passer d'un compte mélomane à musicien <br>
-    Ainsi que d'éditer toute les informations me concernant.
-</div>
+<!-- Section 4 : mon compte -->
+<section class="account">
+	<div class="ligne-artiste">
+		<h2>Mon compte</h2>
+	</div>
+</section>

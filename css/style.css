@@ -873,10 +873,6 @@ footer button:hover {
 
 /* ----- 1) Tous les artistes ---- */
 
-.list-artist {
-	display: none;	/* Supprimer cette balise pour faire apparaitre la section "tous les artistes" */
-}
-
 .ligne-artiste {
 	height: 210px;
 	margin-top: 22px;
@@ -910,15 +906,8 @@ footer button:hover {
 
 /* ---- 2) Bandes sons collab ---- */
 
-.sound-band {
-	display: none;	/* Supprimer cette balise pour faire apparaitre la section "bande son" */
-}
 
 /* ---- 3) Mes playlists ---- */
-
-.playlist {
-	display: none;	/* Supprimer cette balise pour faire apparaitre la section "bande son" */
-}
 
 .playlist .button {
 	margin-bottom: 20px;
@@ -936,8 +925,8 @@ footer button:hover {
 
 /* ---- 3) Mon compte ---- */
 
-.playlist {
-	display: none;	/* Supprimer cette balise pour faire apparaitre la section "bande son" */
+.account {
+	margin: 0 !important;
 }
 
 /* -------------------- PAGE : MUSICIEN -------------------- */
