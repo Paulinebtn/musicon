@@ -36,24 +36,27 @@ if(isset($_GET))
 <body>
 
 	<div id="login">
-		<div class="inscription">
-				<div class="title-co">Inscrivez-vous</div>
-		        <form>
-		            <input type="text" placeholder="Pseudo">
-		            <input type="email" placeholder="Email" class="margin-insc">
-		            <input type="password" placeholder="Mot de passe" class="margin-insc">
-		        </form>
-		        <div class="inscription-choice">
-		            <button>
-		                <div class="circle" id="circle-img1"></div>
-		                <div>Je suis musicien</div>
-		            </button>
-		            <button>
-		                <div class="circle" id="circle-img2"></div>
-		                <div>Je suis musicien</div>
-		            </button>
-		        </div>
-				<a href="#"><button class="music-space button">Se connecter</button></a>
+		<div class="connexion">
+			<div>
+				<div class="title-co">Connectez-vous</div>
+				<div>
+					<div class="connexion-left">
+						<form>
+							<div>
+								<input type="text" placeholder="Email ou pseudo">
+								<input type="text" placeholder="Mot de passe">
+							</div>
+						</form>
+						<a href="#">Mot de passe oublié</a>
+						<a href="#"><button class="music-space button">Se connecter</button></a>
+					</div>
+					<div class="connexion-right">
+						<a href="#"><button>Se connecter avec <i class="ti-facebook"></i></button></a>
+						<a href="#"><button>Se connecter avec <i class="fa fa-google"></i></button></a>
+						<div>Pas encore inscrit? <a href="inscription.php">Inscrivez-vous ici</a></div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 

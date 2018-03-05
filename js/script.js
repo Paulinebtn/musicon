@@ -141,3 +141,14 @@ function myFunction() {
 //Messages de confirmation
 $(".confirmOk").fadeOut(3600);
 $(".confirmNok").fadeOut(3600);
+
+
+//Affichage de l'écran de connexion
+
+
+var loginScreen = document.getElementById('login');
+
+$('.create-music').click(function(e){
+ e.preventDefault();
+ loginScreen.style.display = "flex";
+});
