@@ -34,6 +34,29 @@ if(isset($_GET))
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 <body>
+
+	<div id="login">
+		<div class="inscription">
+				<div class="title-co">Inscrivez-vous</div>
+		        <form>
+		            <input type="text" placeholder="Pseudo">
+		            <input type="email" placeholder="Email" class="margin-insc">
+		            <input type="password" placeholder="Mot de passe" class="margin-insc">
+		        </form>
+		        <div class="inscription-choice">
+		            <button>
+		                <div class="circle" id="circle-img1"></div>
+		                <div>Je suis musicien</div>
+		            </button>
+		            <button>
+		                <div class="circle" id="circle-img2"></div>
+		                <div>Je suis musicien</div>
+		            </button>
+		        </div>
+				<a href="#"><button class="music-space button">Se connecter</button></a>
+		</div>
+	</div>
+
 	<header class="home">
 		<nav>
 			<div><a href="#"><img src="img/logo-musicon-white.png" alt="logo"></a></div>
