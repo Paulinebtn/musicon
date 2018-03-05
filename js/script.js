@@ -146,9 +146,17 @@ $(".confirmNok").fadeOut(3600);
 //Affichage de l'écran de connexion
 
 
-var loginScreen = document.getElementById('login');
+var loginScreen = document.getElementById('loginDiv');
+var opacity = document.getElementById('opacity');
 
 $('.create-music').click(function(e){
  e.preventDefault();
+ opacity.style.display = "flex";
  loginScreen.style.display = "flex";
 });
+
+opacity.onclick = function() {
+    loginScreen.style.display = "none";
+    opacity.style.display = "none";
+};
+

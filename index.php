@@ -34,26 +34,29 @@ if(isset($_GET))
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 <body>
-
-	<div id="login">
-		<div class="connexion">
-			<div>
-				<div class="title-co">Connectez-vous</div>
+	
+	<div id="loginDiv">
+		<div id="opacity"></div>
+		<div id="login">
+			<div class="connexion">
 				<div>
-					<div class="connexion-left">
-						<form>
-							<div>
-								<input type="text" placeholder="Email ou pseudo">
-								<input type="text" placeholder="Mot de passe">
-							</div>
-						</form>
-						<a href="#">Mot de passe oublié</a>
-						<a href="#"><button class="music-space button">Se connecter</button></a>
-					</div>
-					<div class="connexion-right">
-						<a href="#"><button>Se connecter avec <i class="ti-facebook"></i></button></a>
-						<a href="#"><button>Se connecter avec <i class="fa fa-google"></i></button></a>
-						<div>Pas encore inscrit? <a href="inscription.php">Inscrivez-vous ici</a></div>
+					<div class="title-co">Connectez-vous</div>
+					<div>
+						<div class="connexion-left">
+							<form>
+								<div>
+									<input type="text" placeholder="Email ou pseudo">
+									<input type="text" placeholder="Mot de passe">
+								</div>
+							</form>
+							<a href="#">Mot de passe oublié</a>
+							<a href="#"><button class="music-space button">Se connecter</button></a>
+						</div>
+						<div class="connexion-right">
+							<a href="#"><button>Se connecter avec <i class="ti-facebook"></i></button></a>
+							<a href="#"><button>Se connecter avec <i class="fa fa-google"></i></button></a>
+							<div>Pas encore inscrit? <a href="inscription.php">Inscrivez-vous ici</a></div>
+						</div>
 					</div>
 				</div>
 			</div>
