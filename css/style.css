@@ -716,14 +716,14 @@ footer button:hover {
 }
 
 .aside-melomane > div:first-child {
-	padding: 30px 20px;
+	padding: 30px 30px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
 
 .aside-melomane > div:first-child img {
-	width: 60%;
+	width: 75%;
 }
 
 .aside-melomane > div:first-child i {
@@ -741,7 +741,7 @@ footer button:hover {
 	height: 65px;
 	display: flex;
 	align-items: center;
-	padding: 0px 20px;
+	padding: 0px 30px;
 	transition-duration: 0.4s;
 }
 
