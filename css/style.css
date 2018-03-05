@@ -716,14 +716,14 @@ footer button:hover {
 }
 
 .aside-melomane > div:first-child {
-	padding: 30px 20px;
+	padding: 30px 30px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
 
 .aside-melomane > div:first-child img {
-	width: 60%;
+	width: 75%;
 }
 
 .aside-melomane > div:first-child i {
@@ -732,7 +732,7 @@ footer button:hover {
 }
 
 .aside-melomane ul li a img {
-	width: 10%;
+	width: 20px;
 	padding-right: 20px;
 }
 
@@ -741,12 +741,26 @@ footer button:hover {
 	height: 65px;
 	display: flex;
 	align-items: center;
-	padding: 0px 20px;
+	padding: 0px 30px;
 	transition-duration: 0.4s;
 }
 
 .aside-melomane ul li a:hover {
  background-color: #25282D;
+ border-right: 3px solid #C802C9;
+}
+
+.aside-melomane ul li a:focus {
+	background-color: #25282D;
+	border-right: 3px solid #C802C9;
+}
+
+.aside-mus ul li a:hover {
+	border-right: 3px solid #ACD003 !important;
+}
+
+.aside-mus ul li a:focus {
+	border-right: 3px solid #ACD003 !important;
 }
 
 .aside-melomane span {

@@ -25,25 +25,25 @@
         <ul>
             <li>
                 <a href="#"  id="artiste_all">
-                    <img src="icon/music-player.svg" alt="artistes">
+                    <img src="img/icon/all-artist.svg" alt="artistes">
                     <span>Tous les artistes</span>
                 </a>
             </li>
             <li>
                 <a href="#" id="bandes_collab">
-                    <img src="icon/music-player.svg" alt="bandes-sons">
+                    <img src="img/icon/sound-band.svg" alt="bandes-sons">
                     <span>Bandes sons collaboratives</span>
                 </a>
             </li>
             <li>
                 <a href="#" id="mes_playlists">
-                    <img src="icon/music-player.svg" alt="playlists">
+                    <img src="img/icon/playlist.svg" alt="playlists">
                     <span>Mes playlists</span>
                 </a>
             </li>
             <li>
                 <a href="#" id="mon_compte">
-                    <img src="icon/music-player.svg" alt="compte">
+                    <img src="img/icon/user.svg" alt="compte">
                     <span>Mon compte</span>
                 </a>
             </li>

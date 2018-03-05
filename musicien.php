@@ -16,32 +16,32 @@
 </head>
 
 <body class="melomane">
-    <aside class="aside-melomane">
+    <aside class="aside-melomane aside-mus">
         <div>
             <a href="index.php"><img src="img/logo-coupe.png" alt="logo"></a>
         </div>
         <ul>
             <li>
                 <a href="#" id="mes_creations">
-                    <img src="icon/music-player.svg" alt="bandes-sons">
+                    <img src="img/icon/crea.svg" alt="bandes-sons">
                     <span>Mes créations</span>
                 </a>
             </li>
             <li>
                 <a href="#" id="outil_creation">
-                    <img src="icon/music-player.svg" alt="playlists">
+                    <img src="img/icon/levels.svg" alt="playlists">
                     <span>Outil de création</span>
                 </a>
             </li>
             <li>
                 <a href="#" id="messagerie">
-                    <img src="icon/music-player.svg" alt="compte">
+                    <img src="img/icon/message.svg" alt="compte">
                     <span>Messagerie</span>
                 </a>
             </li>
             <li>
                 <a href="#" id="mon_compte">
-                    <img src="icon/music-player.svg" alt="compte">
+                    <img src="img/icon/user2.svg" alt="compte">
                     <span>Mon compte</span>
                 </a>
             </li>
@@ -49,25 +49,7 @@
     </aside>
     
     <main>
-        <div class="head-melomane">
-            <div>
-                <div>
-                    <input type="text" placeholder="Rechercher un artiste, un genre, une musique, un instrument…">
-                    <i class="ti-search"></i>
-                </div>
-                <a href="melomane.php"><button class="music-space button">Écouter de la musique</button></a>
-            </div>
-            <div>
-                <button>Sortie</button>
-                <button>Genre</button>
-                <button>Top</button>
-                <button>Mood</button>
-                <button>Instru</button>
-            </div>
-        </div>
-        <section>
-            <div>salut</div>
-        </section>
+        <!-- les sections sont appelées en AJAX -->
     </main>
     
     <div class="player2">
