@@ -16,7 +16,7 @@
 </head>
 
 <body class="melomane">
-    <aside class="aside-melomane">
+    <aside class="aside-melomane aside-mus">
         <div>
             <a href="index.php"><img src="img/logo-coupe.png" alt="logo"></a>
         </div>
