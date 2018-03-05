@@ -23,25 +23,25 @@
         <ul>
             <li>
                 <a href="#" id="mes_creations">
-                    <img src="icon/music-player.svg" alt="bandes-sons">
+                    <img src="img/icon/crea.svg" alt="bandes-sons">
                     <span>Mes créations</span>
                 </a>
             </li>
             <li>
                 <a href="#" id="outil_creation">
-                    <img src="icon/music-player.svg" alt="playlists">
+                    <img src="img/icon/levels.svg" alt="playlists">
                     <span>Outil de création</span>
                 </a>
             </li>
             <li>
                 <a href="#" id="messagerie">
-                    <img src="icon/music-player.svg" alt="compte">
+                    <img src="img/icon/message.svg" alt="compte">
                     <span>Messagerie</span>
                 </a>
             </li>
             <li>
                 <a href="#" id="mon_compte">
-                    <img src="icon/music-player.svg" alt="compte">
+                    <img src="img/icon/user2.svg" alt="compte">
                     <span>Mon compte</span>
                 </a>
             </li>
