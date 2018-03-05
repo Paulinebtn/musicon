@@ -1,7 +1,7 @@
 <?php
 require_once('include/init.inc.php'); //Connexion à la base
 
-
+//REDIRECTION
 if(isset($_SESSION['login']))
 {
   header('Location:admin/home_back.php');
@@ -21,7 +21,7 @@ if(isset($_GET))
   }
 }
 
-//Gestion de la connexion
+//Gestion de la connexion admin
 if($_POST)
 {
   if(!empty($_POST['login']) && !empty($_POST['password']))

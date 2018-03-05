@@ -139,8 +139,8 @@ function myFunction() {
 
 
 //Messages de confirmation
-$(".confirmOk").fadeOut(3600);
-$(".confirmNok").fadeOut(3600);
+$(".confirmOk").fadeOut(4800);
+$(".confirmNok").fadeOut(4800);
 
 
 //Affichage de l'écran de connexion
@@ -149,7 +149,7 @@ $(".confirmNok").fadeOut(3600);
 var loginScreen = document.getElementById('loginDiv');
 var opacity = document.getElementById('opacity');
 
-$('.create-music').click(function(e){
+$('#logUser').click(function(e){
  e.preventDefault();
  opacity.style.display = "flex";
  loginScreen.style.display = "flex";
