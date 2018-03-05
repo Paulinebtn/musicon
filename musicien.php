@@ -1,16 +1,5 @@
 <?php
 require_once('include/init.inc.php'); //Connexion à la base
-
-//AFFICHAGES DYNAMIQUES
-if(isset($_SESSION['login_user']))
-{
-  $pseudo = $_SESSION['login_user'];
-}
-else
-{
-  $pseudo = "visiteur";
-}
-
 ?>
 
 <!DOCTYPE html>
