@@ -1,7 +1,9 @@
 <?php
+include("include/init.inc.php");
 include("include/functions.inc.php");
-$topMusic = selectAll("songs");
-var_dump(topMusic);
+$req = $pdo->query("SELECT titre, lien, pseudo FROM songs, user WHERE artiste1 = artiste_id");
+$topMusic = $req->fetchAll(PDO::FETCH_ASSOC);
+var_dump($topMusic);
 
 ?>
 <!DOCTYPE html>
