@@ -1,3 +1,9 @@
+<?php
+include("include/functions.inc.php");
+$topMusic = selectAll("songs");
+var_dump(topMusic);
+
+?>
 <!DOCTYPE html>
 <html lang="fr">
 
