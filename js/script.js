@@ -1,7 +1,7 @@
 // PLAYER
 
 var songs = [
-            'song/pesky_plumber.mp3',
+            'song/pesky_plumbers.mp3',
             'song/song2.mp3',
             'song/song3.mp3'
         ];
