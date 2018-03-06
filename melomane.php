@@ -1,9 +1,9 @@
 <?php
 include("include/init.inc.php");
 include("include/functions.inc.php");
-$req = $pdo->query("SELECT titre, lien, pseudo FROM songs, user WHERE artiste1 = artiste_id");
+$req = $pdo->query("SELECT titre, lien, pseudo, avatar FROM songs, user WHERE artiste1 = artiste_id");
 $topMusic = $req->fetchAll(PDO::FETCH_ASSOC);
-var_dump($topMusic);
+//var_dump($topMusic);
 
 ?>
 <!DOCTYPE html>
@@ -82,9 +82,10 @@ var_dump($topMusic);
             <div class="ligne-artiste">
                 <h2>Top Muzic On</h2>
                 <div class="artists">
+                    <?php foreach($topMusic as $data){ ?>
                     <div>
                         <figure class="anim-img">
-                            <img src="img/musician1.png" alt="sample87"/>
+                            <img src="<?= $data["avatar"]; ?>" alt="sample87"/>
                             <figcaption>
 						<span>
 							<button class="btn-play2"><i class="fa fa-play"></i></button>
@@ -92,8 +93,8 @@ var_dump($topMusic);
 						</span>
                                 <div class="content-anim">
                                     <div>
-                                        <div class="name-mus">Nom musicien</div>
-                                        <div>Musique</div>
+                                        <div class="name-mus"><?= $data["pseudo"]; ?></div>
+                                        <div><?= $data["titre"]; ?></div>
                                     </div>
                                     <div>
                                         <i class="fa fa-heart"></i>
@@ -103,6 +104,7 @@ var_dump($topMusic);
                             </figcaption>
                         </figure>
                     </div>
+                    <?php } ?>
                     <div>
                         <figure class="anim-img">
                             <img src="img/musician2.png" alt="sample87"/>
