@@ -88,8 +88,15 @@ $topMusic = $req->fetchAll(PDO::FETCH_ASSOC);
                             <img src="<?= $data["avatar"]; ?>" alt="sample87"/>
                             <figcaption>
 						<span>
-							<button class="btn-play2" id="<?= $data["id"]; ?><?= $data["id"]; ?>"onclick="document.getElementById('<?= $data["id"]; ?>').style.display = 'block'; this.style.display = 'none'; current_song = 0; songs[0] = '<?= $data["lien"]; ?>'; player.src = songs[current_song]; play();"><i class="fa fa-play"></i></button>
-							<button class="btn-pause2 hidden" id="<?= $data["id"]; ?>" onclick="pause(); this.style.display = 'none'; document.getElementById('<?= $data["id"]; ?><?= $data["id"]; ?>').style.display = 'block';"><i class="fa fa-pause"></i></button>
+							<button class="btn-play2" id="<?= $data["id"]; ?><?= $data["id"]; ?>" onclick="document.getElementById('<?= $data["id"]; ?>').style.display = 'block';
+							                                                                            this.style.display = 'none';
+							                                                                            current_song = 0; songs[0] = '<?= $data["lien"]; ?>';
+							                                                                            player.src = songs[current_song];
+							                                                                            play();
+                                                                                                        playerupdate('<?= $data["titre"]; ?>','<?= $data["pseudo"]; ?>','<?= $data["avatar"]; ?>')"><i class="fa fa-play"></i></button>
+							<button class="btn-pause2 hidden" id="<?= $data["id"]; ?>" onclick="pause();
+							                                                                    this.style.display = 'none';
+							                                                                    document.getElementById('<?= $data["id"]; ?><?= $data["id"]; ?>').style.display = 'block';"><i class="fa fa-pause"></i></button>
 						</span>
                                 <div class="content-anim">
                                     <div>
@@ -1321,10 +1328,10 @@ $topMusic = $req->fetchAll(PDO::FETCH_ASSOC);
 		<audio src="" controls></audio>
 		<div>
 			<div class="player-left">
-				<a href="#"><img src="img/player-img.png" alt="player-img" class="player-img" /></a>
+				<a href="#"><img src="img/player-img.png" alt="player-img" class="player-img" id="player_img"/></a>
 				<div>
-					<div>Nom musicien</div>
-					<div>Nom chanson</div>
+					<div id="player_musicien">Nom musicien</div>
+					<div id="player_musique ">Nom chanson</div>
 				</div>
 				<div>
 					<i class="fa fa-heart"></i>

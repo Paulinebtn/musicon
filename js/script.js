@@ -1,5 +1,13 @@
 // PLAYER
 
+function playerupdate(titre, musicien, photo) {
+    $('#player_musique ').html(titre);
+    $('#player_musicien').html(musicien);
+    document.getElementById('player_img').setAttribute('src', photo);
+
+
+}
+
 var songs = [
             'song/pesky_plumbers.mp3',
             'song/song2.mp3',
