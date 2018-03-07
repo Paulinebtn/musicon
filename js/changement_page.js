@@ -74,10 +74,12 @@ if (mes_creations != null) {
 }
 
 // recherche
+setInterval(function () {
+    $('#recherche')[0].onclick = function () {
+        //alert('issou');
+        $.get('reponse_requete.php', function (e) {
+            container[0].innerHTML = e;
+        });
+    }
+},1000)
 
-$('#recherche')[0].onclick = function () {
-    alert('issou');
-    $.get('reponse_requete.php', function (e) {
-        container[0].innerHTML = e;
-    });
-}
