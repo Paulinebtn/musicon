@@ -77,7 +77,8 @@ if (mes_creations != null) {
 setInterval(function () {
     $('#recherche')[0].onclick = function () {
         //alert('issou');
-        $.get('reponse_requete.php', function (e) {
+        var data = {'requete': $('#requete').val()}
+        $.post('reponse_requete.php', data, function (e) {
             container[0].innerHTML = e;
         });
     }

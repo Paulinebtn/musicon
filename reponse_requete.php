@@ -1,3 +1,13 @@
+<?php
+include("include/init.inc.php");
+include("include/functions.inc.php");
+$query = "SELECT titre, lien, pseudo, avatar, id FROM songs, user WHERE artiste1 = artiste_id AND titre ='". $_POST['requete']."'";
+echo $query;
+$req = $pdo->query($query);
+$topMusic = $req->fetchAll(PDO::FETCH_ASSOC);
+var_dump($topMusic);
+?>
+
 <div class="head-melomane">
     <div>
         <div>
@@ -31,153 +41,6 @@
                             <div>
                                 <div class="name-mus">Nom création</div>
                                 <div>4 collaborateurs</div>
-                            </div>
-                            <div>
-                                <i class="fa fa-trash"></i>
-                                <i class="fa fa-plus"></i>
-                            </div>
-                        </div>
-                    </figcaption>
-                </figure>
-            </div>
-            <div>
-                <figure class="anim-img">
-                    <img src="img/musician7.png" alt="sample87"/>
-                    <figcaption>
-						<span>
-							<button class="btn-play2"><i class="fa fa-play"></i></button>
-							<button class="btn-pause2 hidden"><i class="fa fa-pause"></i></button>
-						</span>
-                        <div class="content-anim">
-                            <div>
-                                <div class="name-mus">Nom création</div>
-                                <div>6 collaborateurs</div>
-                            </div>
-                            <div>
-                                <i class="fa fa-trash"></i>
-                                <i class="fa fa-plus"></i>
-                            </div>
-                        </div>
-                    </figcaption>
-                </figure>
-            </div>
-            <div>
-                <figure class="anim-img">
-                    <img src="img/musician9.png" alt="sample87"/>
-                    <figcaption>
-						<span>
-							<button class="btn-play2"><i class="fa fa-play"></i></button>
-							<button class="btn-pause2 hidden"><i class="fa fa-pause"></i></button>
-						</span>
-                        <div class="content-anim">
-                            <div>
-                                <div class="name-mus">Nom création</div>
-                                <div>1 collaborateur</div>
-                            </div>
-                            <div>
-                                <i class="fa fa-trash"></i>
-                                <i class="fa fa-plus"></i>
-                            </div>
-                        </div>
-                    </figcaption>
-                </figure>
-            </div>
-            <div>
-                <figure class="anim-img">
-                    <img src="img/musician10.png" alt="sample87"/>
-                    <figcaption>
-						<span>
-							<button class="btn-play2"><i class="fa fa-play"></i></button>
-							<button class="btn-pause2 hidden"><i class="fa fa-pause"></i></button>
-						</span>
-                        <div class="content-anim">
-                            <div>
-                                <div class="name-mus">Nom création</div>
-                                <div>4 collaborateurs</div>
-                            </div>
-                            <div>
-                                <i class="fa fa-trash"></i>
-                                <i class="fa fa-plus"></i>
-                            </div>
-                        </div>
-                    </figcaption>
-                </figure>
-            </div>
-            <div>
-                <figure class="anim-img">
-                    <img src="img/musician11.png" alt="sample87"/>
-                    <figcaption>
-						<span>
-							<button class="btn-play2"><i class="fa fa-play"></i></button>
-							<button class="btn-pause2 hidden"><i class="fa fa-pause"></i></button>
-						</span>
-                        <div class="content-anim">
-                            <div>
-                                <div class="name-mus">Nom création</div>
-                                <div>5 collaborateurs</div>
-                            </div>
-                            <div>
-                                <i class="fa fa-trash"></i>
-                                <i class="fa fa-plus"></i>
-                            </div>
-                        </div>
-                    </figcaption>
-                </figure>
-            </div>
-            <div>
-                <figure class="anim-img">
-                    <img src="img/musician12.png" alt="sample87"/>
-                    <figcaption>
-						<span>
-							<button class="btn-play2"><i class="fa fa-play"></i></button>
-							<button class="btn-pause2 hidden"><i class="fa fa-pause"></i></button>
-						</span>
-                        <div class="content-anim">
-                            <div>
-                                <div class="name-mus">Nom création</div>
-                                <div>1 collaborateur</div>
-                            </div>
-                            <div>
-                                <i class="fa fa-trash"></i>
-                                <i class="fa fa-plus"></i>
-                            </div>
-                        </div>
-                    </figcaption>
-                </figure>
-            </div>
-            <div>
-                <figure class="anim-img">
-                    <img src="img/musician13.png" alt="sample87"/>
-                    <figcaption>
-						<span>
-							<button class="btn-play2"><i class="fa fa-play"></i></button>
-							<button class="btn-pause2 hidden"><i class="fa fa-pause"></i></button>
-						</span>
-                        <div class="content-anim">
-                            <div>
-                                <div class="name-mus">Nom création</div>
-                                <div>2 collaborateurs</div>
-                            </div>
-                            <div>
-                                <i class="fa fa-trash"></i>
-                                <i class="fa fa-plus"></i>
-                            </div>
-                        </div>
-                    </figcaption>
-                </figure>
-            </div>
-            <div>
-                <figure class="anim-img">
-                    <img src="img/musician14.png" alt="sample87"/>
-                    <figcaption>
-						<span>
-							<button class="btn-play2"><i class="fa fa-play"></i></button>
-							<button class="btn-pause2 hidden"><i class="fa fa-pause"></i></button>
-						</span>
-                        <div class="content-anim">
-                            <div>
-                                <div class="name-mus">Nom création</div>
-                                <div>3 collaborateurs</div>
                             </div>
                             <div>
                                 <i class="fa fa-trash"></i>

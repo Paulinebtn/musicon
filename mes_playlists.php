@@ -2,8 +2,8 @@
 <div class="head-melomane">
     <div>
         <div>
-            <input type="text" placeholder="Rechercher un artiste, un genre, une musique, un instrument…">
-            <i class="ti-search"></i>
+            <input id="requete" type="text" placeholder="Rechercher un artiste, un genre, une musique, un instrument…">
+            <i class="ti-search" id="recherche"></i>
         </div>
         <a href="musicien.php"><button class="create-music button">Créer ma musique</button></a>
     </div>
