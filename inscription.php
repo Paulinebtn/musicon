@@ -1,3 +1,39 @@
+<?php
+
+require_once('include/init.inc.php'); //Connexion à la base
+
+//Inscription utilisateur
+if($_POST)
+{
+  if(!empty($_POST['pseudo']) && !empty($_POST['password']) && !empty($_POST['email']) && !empty($_POST['artiste']))
+  {
+    $insert = $pdo->prepare('INSERT INTO user(email, pseudo, mdp, artiste) VALUES (:email, :pseudo, :mdp, :artiste)');
+    $insert->bindValue(':email', $_POST['email'], PDO::PARAM_STR);
+    $insert->bindValue(':pseudo', $_POST['pseudo'], PDO::PARAM_STR);
+    $insert->bindValue(':mdp', $_POST['password'], PDO::PARAM_STR);
+    $insert->bindValue(':artiste', intval($_POST['artiste']), PDO::PARAM_INT);
+    $insert->execute();
+    
+    if($_POST['artiste'] == 1)
+    {
+      header('location:musicien.php?action=inscriptionOk');
+    }
+    else
+    {
+      header('location:melomane.php?action=inscriptionOk');
+    } 
+    
+  }
+  else
+  {
+    $confirmation = '<div class="confirmNok">
+                        <div>Erreur : Veuillez remplir tous les champs !</div>
+                    </div>';
+  }
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -16,24 +52,29 @@
 </head>
 
 <body class="inscription">
+  <?php if(!empty($confirmation)){echo $confirmation;} ?>
 	<main>
 		<div class="title-co">Inscrivez-vous</div>
-        <form>
-            <input type="text" placeholder="Pseudo">
-            <input type="email" placeholder="Email" class="margin-insc">
-            <input type="password" placeholder="Mot de passe" class="margin-insc">
+        <form method="post" action="inscription.php" id="formInscription">
+            <input type="text" name="pseudo" placeholder="Pseudo">
+            <input type="email" name="email" placeholder="Email" class="margin-insc">
+            <input type="password" name="password" placeholder="Mot de passe" class="margin-insc">
+            <input type="hidden" name="artiste" id="artiste" value="1">
         </form>
         <div class="inscription-choice">
-            <button>
+            <button id="boutonMusicien">
                 <div class="circle" id="circle-img1"></div>
                 <div>Je suis musicien</div>
             </button>
-            <button>
+            <button id="boutonMelomane">
                 <div class="circle" id="circle-img2"></div>
-                <div>Je suis Charlie</div>
+                <div>Je suis mélomane</div>
             </button>
         </div>
-		<a href="#"><button class="music-space button">Se connecter</button></a>
+		<a href="#"><button class="music-space button" id="boutonInscription">S'inscrire</button></a>
 	</main>
+
+  <script src="js/jquery.js"></script>
+  <script src="js/inscription.js"></script>
 </body>
 </html>
