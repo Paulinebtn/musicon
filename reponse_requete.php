@@ -1,7 +1,7 @@
 <?php
 include("include/init.inc.php");
 include("include/functions.inc.php");
-$query = "SELECT titre, lien, pseudo, avatar, id FROM songs, user WHERE artiste1 = artiste_id AND titre ='". addslashes($_POST['requete'])."'";
+$query = "SELECT titre, lien, pseudo, avatar, id FROM songs, user WHERE artiste1 = artiste_id AND titre LIKE '%". addslashes($_POST['requete'])."%'";
 //echo $query;
 $req = $pdo->query($query);
 $topMusic = $req->fetchAll(PDO::FETCH_ASSOC);
