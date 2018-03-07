@@ -774,6 +774,7 @@ footer button:hover {
   margin-left: 18%;
   position: absolute;
     z-index: 1;
+    height: 100%;
 }
 
 .head-melomane {
@@ -943,6 +944,17 @@ footer button:hover {
   margin: 0 !important;
 }
 
+.account > div {
+  margin-left : 2%;
+  margin-right: 2%;
+  margin-top: 22px;
+}
+
+.account h2 {
+  border-bottom: 0.5px solid #efefef;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
 
 
 /* -------------------- PAGE : MUSICIEN -------------------- */
