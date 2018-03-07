@@ -1104,7 +1104,8 @@ justify-content: center;
 /* -------------------- PAGE : INSCRIPTION -------------------- */
 
 .inscription {
-  background-color: rgba(255, 255, 255, 0.84);
+  background:url("../img/home.png");
+  /*background-color: rgba(255, 255, 255, 0.84);*/
   display: flex;
   justify-content: center;
   align-items: center;

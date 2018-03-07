@@ -21,7 +21,7 @@
         <form>
             <input type="text" placeholder="Pseudo">
             <input type="email" placeholder="Email" class="margin-insc">
-            <input type="password" placeholder="Mot de passe"class="margin-insc">
+            <input type="password" placeholder="Mot de passe" class="margin-insc">
         </form>
         <div class="inscription-choice">
             <button>
@@ -30,7 +30,7 @@
             </button>
             <button>
                 <div class="circle" id="circle-img2"></div>
-                <div>Je suis musicien</div>
+                <div>Je suis Charlie</div>
             </button>
         </div>
 		<a href="#"><button class="music-space button">Se connecter</button></a>
