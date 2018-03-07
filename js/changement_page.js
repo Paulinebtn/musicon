@@ -73,3 +73,11 @@ if (mes_creations != null) {
     };
 }
 
+// recherche
+
+$('#recherche')[0].onclick = function () {
+    alert('issou');
+    $.get('reponse_requete.php', function (e) {
+        container[0].innerHTML = e;
+    });
+}
