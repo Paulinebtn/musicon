@@ -18,8 +18,8 @@ else
 }
 
 //Modification compte
-if ($_POST["id"]) {
-    
+if (!empty($_POST["id"])) {
+    $update = $pdo->prepare('UPDATE user SET nom = :nom, prenom = :prenom, email = :email, pseudo = :pseudo, ')
 }
 
 //Connexion
