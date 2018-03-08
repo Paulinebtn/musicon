@@ -6,6 +6,7 @@ $query = "SELECT titre, lien, pseudo, avatar, id FROM songs, user WHERE artiste1
 $req = $pdo->query($query);
 $topMusic = $req->fetchAll(PDO::FETCH_ASSOC);
 //var_dump($topMusic);
+
 ?>
 
 <div class="head-melomane">
