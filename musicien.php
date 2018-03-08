@@ -1,11 +1,11 @@
 <?php
 require_once('include/init.inc.php'); //Connexion à la base
 
-if(!isset($_SESSION['login_user']) || !isset($_SESSION['login']))
+if(!isset($_SESSION['login_user']))
 {
   header('Location:inscription.php?action=notmusician');
 }
-
+echo "<input type='hidden' value='". $_SESSION["login_user"] ."' id='pls'>";
 ?>
 
 <!DOCTYPE html>

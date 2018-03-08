@@ -107,7 +107,7 @@ if($_POST)
 							<a href="#"><button>Se connecter avec <i class="ti-facebook"></i></button></a>
 							<a href="#"><button>Se connecter avec <i class="fa fa-google"></i></button></a>
 							<div>Pas encore inscrit ? <a href="inscription.php">Inscrivez-vous ici !</a></div>
-							<div><a href="musicien.php">Continuer sans se connecter</a></div>
+							<div><a href="melomane.php">Continuer sans se connecter</a></div>
 						</div>
 					</div>
 				</div>

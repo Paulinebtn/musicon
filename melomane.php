@@ -5,6 +5,48 @@ $req = $pdo->query("SELECT titre, lien, pseudo, avatar, id FROM songs, user WHER
 $topMusic = $req->fetchAll(PDO::FETCH_ASSOC);
 //var_dump($topMusic);
 
+//REDIRECTION
+if(!empty($_SESSION['login_user']))
+{
+  $login_button = '<a href="musicien.php"><button class="create-music button">Créer ma musique</button></a>';
+  //Si la session existe, le lien se fait vers la page musicien.
+}
+else
+{
+  $login_button = '<a href="musicien.php"><button class="create-music button"  id="logUser">Créer ma musique</button></a>';
+  //Si la session n'existe pas, on fait apparaitre le formulaire de connexion grâce à l'id logUser, qui déclenche le preventDefault en JS
+}
+
+//Connexion
+if($_POST)
+{
+  if(!empty($_POST['login']) && !empty($_POST['password']))
+  {
+    $check = $pdo->prepare('SELECT * FROM user WHERE pseudo = :login');
+    $check->bindValue(':login', $_POST['login'], PDO::PARAM_STR);
+    $check->execute();
+
+    $check_user = $check->fetch(PDO::FETCH_ASSOC);
+
+    if($check_user['mdp'] === $_POST['password'])
+    {
+      $_SESSION['login_user'] = $check_user['pseudo'];
+      header('Location:musicien.php');
+    }
+    else
+    {
+    $confirmation = '<div class="confirmNok">
+                        <div>Erreur : Login ou mot de passe incorrect</div>
+                    </div>';
+    }
+  }
+  else if(!isset($_POST["logout"]))
+  {
+    $confirmation = '<div class="confirmNok">
+                        <div>Erreur : Veuillez remplir tous les champs !</div>
+                    </div>';
+  }
+}
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -25,6 +67,35 @@ $topMusic = $req->fetchAll(PDO::FETCH_ASSOC);
 </head>
 
 <body class="melomane">
+
+    <div id="loginDiv">
+        <div id="opacity"></div>
+        <div id="login">
+            <div class="connexion">
+                <div>
+                    <div class="title-co">Connectez-vous</div>
+                    <div>
+                        <div class="connexion-left">
+                            <form method="post" action="#">
+                                <div>
+                                    <input type="text" name="login" placeholder="Email ou pseudo" required>
+                                    <input type="password" name="password" placeholder="Mot de passe" required>
+                                </div>
+                                <a href="#">Mot de passe oublié ?</a>
+                                <button class="music-space button" type="submit" name="connexion">Se connecter</button>
+                            </form>
+                            <?php if(!empty($confirmation)){echo $confirmation;} ?>
+                        </div>
+                        <div class="connexion-right">
+                            <a href="#"><button>Se connecter avec <i class="ti-facebook"></i></button></a>
+                            <a href="#"><button>Se connecter avec <i class="fa fa-google"></i></button></a>
+                            <div>Pas encore inscrit ? <a href="inscription.php">Inscrivez-vous ici !</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 	
     <aside class="aside-melomane">
         <div>
@@ -66,7 +137,7 @@ $topMusic = $req->fetchAll(PDO::FETCH_ASSOC);
                     <input id="requete" type="text" placeholder="Rechercher un artiste, un genre, une musique, un instrument…">
                     <i class="ti-search" id="recherche"></i>
                 </div>
-                <a href="musicien.php"><button class="create-music button">Créer ma musique</button></a>
+                <?= $login_button ?>
             </div>
             <div>
                 <button>Sortie</button>

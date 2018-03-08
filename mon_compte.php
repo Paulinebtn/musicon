@@ -1,4 +1,7 @@
 <!-- Section 4 : mon compte -->
+<?php
+require_once('include/init.inc.php');
+?>
 <section class="account">
 	<div>
 		<h2>Mon compte</h2>
@@ -8,6 +11,11 @@
     <input type="hidden" name="logout">
     <input type="submit" value="Starfoullah">
   </form>
+
+<?php 
+var_dump($_SESSION);
+?>
+
 
 	</section>
 	

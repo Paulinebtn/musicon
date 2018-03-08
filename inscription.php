@@ -2,6 +2,16 @@
 
 require_once('include/init.inc.php'); //Connexion à la base
 
+if(isset($_GET))
+{
+  if(!empty($_GET['action']) && $_GET['action'] == 'notmusician')
+  {
+    $confirmation = '<div class="confirmNok">
+                        <div>Vous devez être connecté pour jouer !</div>
+                    </div>';
+  }
+}
+
 //Inscription utilisateur
 if($_POST)
 {
