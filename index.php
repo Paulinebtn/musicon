@@ -538,7 +538,7 @@ if($_POST)
 			<div>
 				<div>
 					<h2>Vous êtes musicien ?</h2>
-					<div>His cognitis Gallus ut serpens adpetitus telo vel saxo iamque spes extremas opperiens et succurrens saluti suae quavis ratione colligi omnes iussit armatos et cum starent attoniti,districta dentium acie stridens adeste inquit viri fortes mihi periclitanti vobiscum.</div>
+					<div>Il n'a jamais été aussi simple de créer de la musique. Grâce à l'outil de création Muzic On, vous pouvez composer en direct avec d'autres utilisateurs et communiquer avec eux sur le chat intégré. Téléchargez, modifiez, partagez vos meilleures créations !</div>
 					<a href="musicien.php"><button class="create-music button">Découvrir</button></a>
 				</div>
 				<div>
