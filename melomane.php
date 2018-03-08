@@ -17,6 +17,11 @@ else
   //Si la session n'existe pas, on fait apparaitre le formulaire de connexion grâce à l'id logUser, qui déclenche le preventDefault en JS
 }
 
+//Modification compte
+if ($_POST["id"]) {
+    
+}
+
 //Connexion
 if($_POST)
 {
