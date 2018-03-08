@@ -11,11 +11,17 @@ if(!empty($_SESSION['login_user']))
 {
   $login_button = '<a href="musicien.php"><button class="create-music button">Créer ma musique</button></a>';
   //Si la session existe, le lien se fait vers la page musicien.
+
+  $join_button = '<a href="musicien.php"><button class="music-space button">Rejoignez-nous</button></a>';
+  //Si la session existe, le lien se fait vers la page musicien
 }
 else
 {
 	$login_button = '<a href="musicien.php"><button class="create-music button"  id="logUser">Créer ma musique</button></a>';
 	//Si la session n'existe pas, on fait apparaitre le formulaire de connexion grâce à l'id logUser, qui déclenche le preventDefault en JS
+
+	 $join_button = '<a href="inscription.php"><button class="music-space button">Rejoignez-nous</button></a>';
+  //Si la session existe, le lien se fait vers la page inscription
 }
 
 //Gestion des messages
@@ -545,7 +551,7 @@ if($_POST)
 			<div>
 				<h2>Inscrivez-vous</h2>
 				<p>Que vous soyez mélomane ou musicien, inscrivez-vous et profitez de toutes nos fonctionnalités</p>
-				<a href="contact.php"><button class="music-space button">Rejoignez-nous</button></a>
+				<?= $join_button ?>
 			</div>
 		</section>
 	
