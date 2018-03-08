@@ -13,6 +13,10 @@ if($_POST)
     $insert->bindValue(':mdp', $_POST['password'], PDO::PARAM_STR);
     $insert->bindValue(':artiste', intval($_POST['artiste']), PDO::PARAM_INT);
     $insert->execute();
+
+    var_dump($insert);
+
+    $_SESSION['login_user'] = $_POST['pseudo'];
     
     if($_POST['artiste'] == 1)
     {

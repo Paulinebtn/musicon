@@ -1,5 +1,11 @@
 <?php
 require_once('include/init.inc.php'); //Connexion à la base
+
+if(!isset($_SESSION['login_user']) || !isset($_SESSION['login']))
+{
+  header('Location:inscription.php?action=notmusician');
+}
+
 ?>
 
 <!DOCTYPE html>

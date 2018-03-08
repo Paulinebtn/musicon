@@ -3,6 +3,11 @@
 	<div>
 		<h2>Mon compte</h2>
 	</div>
+  
+  <form action="index.php" method="post">
+    <input type="hidden" name="logout">
+    <input type="submit" value="Starfoullah">
+  </form>
 
 	</section>
 	

@@ -1,8 +1,13 @@
 <?php
-require_once('include/init.inc.php'); //Connexion à la base
+require_once('include/init.inc.php');
+//var_dump($_POST); //Connexion à la base
+if (isset($_POST["logout"])) {
+	session_unset();
+	session_destroy();
+}
 
 //REDIRECTION
-if(isset($_SESSION['login_user']))
+if(!empty($_SESSION['login_user']))
 {
   $login_button = '<a href="musicien.php"><button class="create-music button">Créer ma musique</button></a>';
   //Si la session existe, le lien se fait vers la page musicien.
@@ -53,7 +58,7 @@ if($_POST)
     								</div>';
     }
   }
-  else
+  else if(!isset($_POST["logout"]))
   {
     $confirmation = '<div class="confirmNok">
     										<div>Erreur : Veuillez remplir tous les champs !</div>
