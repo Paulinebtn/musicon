@@ -6,14 +6,20 @@ require_once('include/init.inc.php');
 	<div>
 		<h2>Mon compte</h2>
 	</div>
-  
+  <?php
+    if (isset($_SESSION["login_user"])){
+  ?>
   <form action="index.php" method="post">
     <input type="hidden" name="logout">
     <input type="submit" value="Starfoullah">
   </form>
 
 <?php 
-var_dump($_SESSION);
+    } else {
+        ?>
+        <a href="musicien.php"><button class="create-music button"  id="logUser">Créer ma musique</button></a>
+    <?php
+    }
 ?>
 
 

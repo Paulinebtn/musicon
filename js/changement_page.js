@@ -75,12 +75,15 @@ if (mes_creations != null) {
 
 // recherche
 setInterval(function () {
-    $('#recherche')[0].onclick = function () {
-        //alert('issou');
-        var data = {'requete': $('#requete').val()}
-        $.post('reponse_requete.php', data, function (e) {
-            container[0].innerHTML = e;
-        });
+    if ($('#recherche') == true){
+        $('#recherche')[0].onclick = function () {
+            //alert('issou');
+            var data = {'requete': $('#requete').val()}
+            $.post('reponse_requete.php', data, function (e) {
+                container[0].innerHTML = e;
+            });
+        }
     }
+
 },1000)
 

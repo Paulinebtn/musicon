@@ -4,6 +4,18 @@ include("include/init.inc.php");
 include("include/functions.inc.php");
 $req = $pdo->query("SELECT titre, lien, pseudo, avatar, id FROM songs, user WHERE artiste1 = artiste_id");
 $topMusic = $req->fetchAll(PDO::FETCH_ASSOC);
+
+//REDIRECTION
+if(!empty($_SESSION['login_user']))
+{
+    $login_button = '<a href="musicien.php"><button class="create-music button">Créer ma musique</button></a>';
+    //Si la session existe, le lien se fait vers la page musicien.
+}
+else
+{
+    $login_button = '<a href="musicien.php"><button class="create-music button"  id="logUser">Créer ma musique</button></a>';
+    //Si la session n'existe pas, on fait apparaitre le formulaire de connexion grâce à l'id logUser, qui déclenche le preventDefault en JS
+}
 ?>
 <div class="head-melomane">
     <div>
@@ -11,7 +23,7 @@ $topMusic = $req->fetchAll(PDO::FETCH_ASSOC);
             <input id="requete" type="text" placeholder="Rechercher un artiste, un genre, une musique, un instrument…">
             <i class="ti-search" id="recherche"></i>
         </div>
-        <a href="musicien.php"><button class="create-music button">Créer ma musique</button></a>
+        <?= $login_button; ?>
     </div>
     <div>
         <button>Sortie</button>
