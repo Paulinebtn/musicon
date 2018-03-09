@@ -7,6 +7,7 @@ if (!empty($_SESSION["login_user"])){
 }
 
 ?>
+<link rel="stylesheet" type="text/css" href="css/custom-bootstrap.css" />
 <section class="account" style="text-align: center">
 	<div>
 		<h2>Mon compte</h2>
@@ -15,23 +16,25 @@ if (!empty($_SESSION["login_user"])){
     if (isset($_SESSION["login_user"])){
   ?>
         <img src="<?= $info[0]["avatar"] ?>" width="200px" height="200px" style="border-radius: 50%;">
-        <form action="melomane.php" method="post">
+        <form action="melomane.php" method="post" style="">
             <input type="hidden" name="id" value="<?= $info[0]["artiste_id"]; ?>">
 
-            <label for="nom">Nom :</label>
-            <input type="text" name="nom" value="<?= $info[0]["nom"]; ?>"><br>
+                <label for="nom">Nom :</label>
+                <input class="form-control" type="text" name="nom" value="<?= $info[0]["nom"]; ?>"><br>
+
+
 
             <label for="nom">Prénom :</label>
-            <input type="text" name="prenom" value="<?= $info[0]["prenom"]; ?>"><br>
+            <input type="text" class="form-control" name="prenom" value="<?= $info[0]["prenom"]; ?>"><br>
 
             <label for="nom">Email :</label>
-            <input type="email" name="email" value="<?= $info[0]["email"]; ?>"><br>
+            <input type="email" class="form-control" name="email" value="<?= $info[0]["email"]; ?>"><br>
 
             <label for="nom">Pseudo :</label>
-            <input type="text" name="pseudo" value="<?= $info[0]["pseudo"]; ?>"><br>
+            <input type="text" class="form-control" name="pseudo" value="<?= $info[0]["pseudo"]; ?>"><br>
 
             <label for="nom">Mot de passe :</label>
-            <input type="text" name="mdp" value="<?= $info[0]["mdp"]; ?>"><br>
+            <input type="text" class="form-control" name="mdp" value="<?= $info[0]["mdp"]; ?>"><br>
 
             <label for="artiste">Catégorie :</label>
             <?php
@@ -49,11 +52,11 @@ if (!empty($_SESSION["login_user"])){
                 <option value="1">Musicien</option>
             </select>
             <?php } ?>
-            <br><input type="submit" value="Enregistrer les modifications">
+            <br><input type="submit" value="Enregistrer les modifications" class="btn btn-primary" style="margin-bottom: 20px;">
         </form>
   <form action="index.php" method="post">
     <input type="hidden" name="logout">
-    <input type="submit" value="Se déconnecter">
+    <input type="submit" value="Se déconnecter" class="btn btn-danger">
   </form>
 
 <?php 
