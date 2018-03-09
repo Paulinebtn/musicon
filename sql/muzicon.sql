@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.7.7
+-- version 4.7.6
 -- https://www.phpmyadmin.net/
 --
--- Hôte : localhost
--- Généré le :  ven. 09 mars 2018 à 10:42
+-- Hôte : localhost:3306
+-- Généré le :  ven. 09 mars 2018 à 11:03
 -- Version du serveur :  5.7.19
--- Version de PHP :  7.1.12
+-- Version de PHP :  7.1.7
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -111,7 +111,7 @@ CREATE TABLE `user` (
   `pseudo` varchar(50) NOT NULL,
   `mdp` varchar(50) NOT NULL,
   `artiste` tinyint(1) NOT NULL DEFAULT '0',
-  `avatar` varchar(50) DEFAULT NULL
+  `avatar` varchar(50) DEFAULT 'img/avatar_defaut.jpg'
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 --
@@ -122,15 +122,15 @@ INSERT INTO `user` (`artiste_id`, `nom`, `prenom`, `email`, `pseudo`, `mdp`, `ar
 (1, 'hotel', 'mario', 'mariohotel@nintendo.com', 'MarioHotel', 'marioleplombierdu53', 0, 'img/avatar_mario.png'),
 (2, 'John', 'Cena', 'jogncena@wwe.com', 'John Cena', 'youcantseeme', 1, 'img/johncena_avatar.png'),
 (3, 'Snoop', 'Dogg', 'snoop_dogg@internationalmusic.com', 'Snoop Dogg', 'iloveweed', 1, 'img/snoopdogg_avatar.png'),
-(4, NULL, NULL, 'jacques.hovine@gmail.com', 'Jacques', 'issou', 1, NULL),
-(5, NULL, NULL, 'test@gmail.com', 'Test', 'azneazldaze', 2, NULL),
-(6, NULL, NULL, 'test@gmail.com', 'Test', 'azneazldaze', 2, NULL),
-(7, NULL, NULL, 'benoit.boureau@eemi.com', 'Benoit', 'benout', 2, NULL),
-(8, NULL, NULL, 'noelie.roux@eemi.com', 'Noelie', 'azienazje', 2, NULL),
-(9, NULL, NULL, 'azeaze@xn--aze-j50a', 'aeaze', 'azeaze', 2, NULL),
-(10, NULL, NULL, 'azeaze@xn--aze-j50a', 'aeaze', 'azeaze', 2, NULL),
-(11, NULL, NULL, 'a@a', 'a', 'a', 1, NULL),
-(12, NULL, NULL, 'b@b', 'b', 'b', 1, NULL),
+(4, NULL, NULL, 'jacques.hovine@gmail.com', 'Jacques', 'issou', 1, 'img/avatar_defaut.jpg'),
+(5, NULL, NULL, 'test@gmail.com', 'Test', 'azneazldaze', 2, 'img/avatar_defaut.jpg'),
+(6, NULL, NULL, 'test@gmail.com', 'Test', 'azneazldaze', 2, 'img/avatar_defaut.jpg'),
+(7, NULL, NULL, 'benoit.boureau@eemi.com', 'Benoit', 'benout', 2, 'img/avatar_defaut.jpg'),
+(8, NULL, NULL, 'noelie.roux@eemi.com', 'Noelie', 'azienazje', 2, 'img/avatar_defaut.jpg'),
+(9, NULL, NULL, 'azeaze@xn--aze-j50a', 'aeaze', 'azeaze', 2, 'img/avatar_defaut.jpg'),
+(10, NULL, NULL, 'azeaze@xn--aze-j50a', 'aeaze', 'azeaze', 2, 'img/avatar_defaut.jpg'),
+(11, 'Mon nom est A', 'Mon prénom est A', 'a@a', 'a', 'a', 2, 'img/avatar_defaut.jpg'),
+(12, NULL, NULL, 'b@b', 'b', 'b', 1, 'img/avatar_defaut.jpg'),
 (13, 'King', 'King', 'theking@eemi.com', 'The King', 'lol', 0, 'img/king.jpg');
 
 --
