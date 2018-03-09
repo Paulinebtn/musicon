@@ -31,7 +31,7 @@ if (!empty($_SESSION["login_user"])){
             <input type="text" name="pseudo" value="<?= $info[0]["pseudo"]; ?>"><br>
 
             <label for="nom">Mot de passe :</label>
-            <input type="text" name="prenom" value="<?= $info[0]["mdp"]; ?>"><br>
+            <input type="text" name="mdp" value="<?= $info[0]["mdp"]; ?>"><br>
 
             <label for="artiste">Catégorie :</label>
             <?php

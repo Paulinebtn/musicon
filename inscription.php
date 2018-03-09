@@ -18,13 +18,13 @@ if($_POST)
   if(!empty($_POST['pseudo']) && !empty($_POST['password']) && !empty($_POST['email']) && !empty($_POST['artiste']))
   {
     $insert = $pdo->prepare('INSERT INTO user(email, pseudo, mdp, artiste) VALUES (:email, :pseudo, :mdp, :artiste)');
-    $insert->bindValue(':email', $_POST['email'], PDO::PARAM_STR);
-    $insert->bindValue(':pseudo', $_POST['pseudo'], PDO::PARAM_STR);
-    $insert->bindValue(':mdp', $_POST['password'], PDO::PARAM_STR);
-    $insert->bindValue(':artiste', intval($_POST['artiste']), PDO::PARAM_INT);
-    $insert->execute();
+      $insert->bindValue(':email', $_POST['email'], PDO::PARAM_STR);
+      $insert->bindValue(':pseudo', $_POST['pseudo'], PDO::PARAM_STR);
+      $insert->bindValue(':mdp', $_POST['password'], PDO::PARAM_STR);
+      $insert->bindValue(':artiste', intval($_POST['artiste']), PDO::PARAM_INT);
+      $insert->execute();
 
-    var_dump($insert);
+      var_dump($insert);
 
     $_SESSION['login_user'] = $_POST['pseudo'];
     
