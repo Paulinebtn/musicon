@@ -19,6 +19,7 @@ else
 
 //Modification compte
 if (!empty($_POST["id"])) {
+    var_dump($_POST);
     $update = $pdo->prepare('UPDATE user SET nom = :nom, prenom = :prenom, email = :email, pseudo = :pseudo, mdp = :mdp, artiste = :artiste WHERE artiste_id = :id');
     $update->bindValue(':nom', $_POST['nom'], PDO::PARAM_STR);
     $update->bindValue(':prenom', $_POST['prenom'], PDO::PARAM_STR);

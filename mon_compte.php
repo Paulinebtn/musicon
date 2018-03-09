@@ -16,7 +16,7 @@ if (!empty($_SESSION["login_user"])){
   ?>
         <img src="<?= $info[0]["avatar"] ?>" width="200px" height="200px" style="border-radius: 50%;">
         <form action="melomane.php" method="post">
-            <input type="hidden" name="id" value="<?= $info[0]["id"]; ?>">
+            <input type="hidden" name="id" value="<?= $info[0]["artiste_id"]; ?>">
 
             <label for="nom">Nom :</label>
             <input type="text" name="nom" value="<?= $info[0]["nom"]; ?>"><br>
