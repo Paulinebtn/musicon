@@ -1332,6 +1332,94 @@ footer button {
   border-radius: 5px;
 }
 
+/* 3) outil musical */
+
+.outil {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.outil > div {
+  width: 85%;
+}
+
+.outil-mus  {
+    display: flex;
+    align-items: center;
+}
+
+.outil-mus > div:first-child {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+}
+.barre-outil {
+  height: 3px;
+  width: 100%;
+  background-color: rgb(234, 236, 240);
+}
+
+.ball-outil {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #C802C9;
+  position: absolute;
+  top: 31px;
+}
+
+.outil-mus > div:nth-child(2) {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.outil-mus > div:nth-child(2) > div {
+  width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.outil-mus > div:nth-child(2) > div:last-child {
+  display: flex;
+  justify-content: center;
+}
+
+.outil-mus > div:last-child {
+  display: flex;
+  width: 25%;
+}
+
+.outil-mus  i {
+  cursor: pointer;
+}
+
+.tempo {
+  display: flex;
+  align-items: center;
+  font-size: 11px;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.tempo > div:last-child {
+  margin-left: 10px;
+}
+
+.outil + section {
+  margin-top: 20px !important;
+}
+
+.outil + section img {
+  width: 100%;
+  height: auto;
+}
 /* ---------------- MESSAGES DE CONFIRMATION ----------------- */
 
 .confirmOk, .confirmNok{

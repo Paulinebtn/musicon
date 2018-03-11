@@ -1,19 +1,39 @@
-<div class="head-melomane">
+<div class="outil">
     <div>
-        <div>
-            <input type="text" placeholder="Rechercher un artiste, un genre, une musique, un instrument…">
-            <i class="ti-search"></i>
+        <div class="outil-mus">
+            <div>
+                <i class="fa fa-backward"></i>
+                <i class="fa fa-play"></i>
+                <i class="fa fa-forward"></i>
+                <i class="fa fa-stop"></i>
+                <i class="fa fa-circle"></i>
+            </div>
+            <div>
+                <div>
+                    <div>059,4</div>
+                    <div class="tempo">
+                        <div>mesure</div>
+                        <div>temps</div>
+                    </div>
+                </div>
+                <div>
+                    <div>75</div>
+                    <div class="tempo">
+                        <div>tempo</div>
+                    </div>
+                </div> 
+                <div>
+                    <i class="ti-export"></i>
+                </div> 
+            </div>
+            <div>
+                <div class="barre-outil"></div>
+                <span class="ball-outil"></span>
+            </div>
         </div>
-        <a href="melomane.php"><button class="music-space button">Écouter de la musique</button></a>
     </div>
-    <div>
-        <button>Sortie</button>
-        <button>Genre</button>
-        <button>Top</button>
-        <button>Mood</button>
-        <button>Instru</button>
-    </div>
+    <a href="melomane.php"><button class="music-space button">Écouter de la musique</button></a>
 </div>
 <section>
-    <div>// MON BEL OUTIL DE CRÉATION //</div>
+    <img src="img/music-tool.png">
 </section>
