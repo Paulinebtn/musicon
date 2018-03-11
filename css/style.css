@@ -1434,7 +1434,19 @@ footer button {
   border-radius: 5px;
   background-color: white;
   border: 0.5px solid lightgray;
-  /*display: none; GERER EN JS */
+  display: none; /*GERER EN JS */
+}
+
+.filtre-mess {
+  bottom: 552px;
+}
+
+.filtre-artist {
+  bottom: 1854px;
+}
+
+.filtre-son {
+  bottom: 1621px;
 }
 
 /* GERER EN JS */

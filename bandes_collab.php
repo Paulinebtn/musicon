@@ -1243,7 +1243,7 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
         </div>
     </div>
 </section>
-<div class="filtre">
+<div class="filtre filtre-son">
 	<div class="filtre-sortie">
 		<ul>
 			<li>Sortie du jour</li>

@@ -121,7 +121,7 @@
         </div>
     </div>
 </section>
-<div class="filtre">
+<div class="filtre filtre-mess">
             <div class="filtre-sortie">
                 <ul>
                     <li>Sortie du jour</li>

@@ -1280,7 +1280,7 @@ else
         </div>
     </div>
 </section>
-		<div class="filtre">
+		<div class="filtre filtre-artist">
             <div class="filtre-sortie">
                 <ul>
                     <li>Sortie du jour</li>
