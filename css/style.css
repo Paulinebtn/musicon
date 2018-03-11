@@ -1420,6 +1420,98 @@ footer button {
   width: 100%;
   height: auto;
 }
+
+/* ---------------- FILTRES ----------------- */
+
+.filtre {
+  height: auto;
+  position: relative;
+  background: red;
+  bottom: 230px;
+  width: 79%;
+  left: 30px;
+  z-index: 1;
+  border-radius: 5px;
+  background-color: white;
+  border: 0.5px solid lightgray;
+  /*display: none; GERER EN JS */
+}
+
+/* GERER EN JS */
+.filtre-sortie {
+  display: none;
+}
+
+.filtre-genre {
+  /*display: none !important;*/
+}
+
+.filtre-top {
+  display: none;
+}
+
+.filtre-mood{
+ display: none !important;
+}
+
+.filtre-instru {
+  display: none !important;
+}
+
+.filtre > div {
+  padding: 10px;
+}
+
+.filtre ul li {
+  padding-bottom: 14px;
+  font-size: 14px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.filtre ul li:hover {
+  color: #C802C9;
+}
+
+.filtre-genre > div {
+  width : 32%;
+}
+
+.filtre-genre > div > div {
+  padding-bottom: 14px;
+}
+
+.filtre-genre {
+  display: flex;
+  font-size: 14px;
+}
+
+.filtre-mood {
+  display: flex;
+  font-size: 14px;
+}
+
+.filtre-mood > div {
+  width : 50%;
+}
+
+.filtre-mood > div > div {
+  padding-bottom: 14px;
+}
+
+.filtre-instru {
+  display: flex;
+  font-size: 14px;
+}
+
+.filtre-instru > div {
+  width : 32%;
+}
+
+.filtre-instru > div > div {
+  padding-bottom: 14px;
+}
+
 /* ---------------- MESSAGES DE CONFIRMATION ----------------- */
 
 .confirmOk, .confirmNok{
