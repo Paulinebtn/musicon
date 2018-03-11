@@ -112,7 +112,8 @@
                 <div> Prénom Nom</div>
             </div>
             <div class="convers">
-                conversation
+                <div class="mess-recu">Salut</div>
+                <div class="mess-envoi">Salut</div>
             </div>
             <div class="send-mess">
                 <textarea placeholder="Tapez votre message..."></textarea>

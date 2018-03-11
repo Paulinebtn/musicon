@@ -1315,6 +1315,23 @@ footer button {
   font-weight: 200;
 }
 
+.mess-recu {
+  padding: 6px 10px;
+  background-color: #F5F7FA;
+  width: fit-content;
+  margin-top: 4px;
+  border-radius: 5px;
+}
+
+.mess-envoi {
+  padding: 8px 10px;
+  background-color: #ACD003;
+  width: fit-content;
+  color: white;
+  margin-top: 4px;
+  border-radius: 5px;
+}
+
 /* ---------------- MESSAGES DE CONFIRMATION ----------------- */
 
 .confirmOk, .confirmNok{
