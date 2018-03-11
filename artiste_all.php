@@ -26,7 +26,7 @@ else
         <?= $login_button; ?>
     </div>
     <div>
-        <button>Sortie</button>
+        <button class="btn-sorti">Sortie</button>
         <button>Genre</button>
         <button>Top</button>
         <button>Mood</button>

@@ -123,33 +123,6 @@ var songs = [
             muted.classList.remove('hidden');
         });
 
-// SCROLL
-
-// When the user scrolls the page, execute myFunction 
-window.onscroll = function() {
-	myFunction()
-};
-
-// Get the navbar
-var navbar = document.querySelector(".player");
-
-// Get the offset position of the navbar
-if(navbar != null)
-{
- var sticky = navbar.offsetTop + 50;   
-}
-
-
-// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky");
-  } else {
-    navbar.classList.remove("sticky");
-  }
-} 
-
-
 //Messages de confirmation
 $(".confirmOk").fadeOut(4800);
 $(".confirmNok").fadeOut(4800);
@@ -172,7 +145,22 @@ setInterval(function () {
         loginScreen.style.display = "none";
         opacity.style.display = "none";
     };
-    }, 1000
-)
+}, 1000);
 
+/* filtre */
 
+$(document).ready(function () {
+    
+    $('.btn-sorti').click(function () {
+        
+        console.log('lol');
+
+        $('.filtre').css( {
+            'display':'block',
+        });
+
+        $('.filtre-sortie').css( {
+                'display':'flex',
+        });
+    });
+});
