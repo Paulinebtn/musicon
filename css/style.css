@@ -147,81 +147,6 @@ li {
   text-align: center;
 }
 
-/* PHONE */
-
-@media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 667px) {
-  .header {
-    width: 100%;
-  }
-
-  .home nav {
-    flex-direction: column !important;
-  }
-
-  .home nav a {
-    justify-content: center;
-  }
-
-  .home nav > div:last-child {
-    align-items: center;
-  }
-
-  .header-RS + div {
-    position: relative;
-    top: 255px;
-  }
-
-  .home > div#mainTitle {
-    height: 30%;
-  }
-
-  .header-RS a {
-    margin: 13px;
-  }
-
-  .musician-line {
-    display: block !important;
-    overflow: auto;
-    white-space: nowrap;
-  }
-
-  .musician-line > div {
-    display: inline-block;
-  }
-
-  footer {
-    flex-direction: column;
-    height: auto !important;
-  }
-
-  footer > div:first-child {
-    padding: 20px 0!important;
-    width: 90% !important;
-    margin: auto !important;
-  }
-
-  footer > div:last-child{
-    width: 100% !important;
-   padding: 0 !important;
-  }
-
-  footer > div:last-child form {
-    margin: 0 !important;
-    padding-right: 5%;
-    padding-left: 5%;
-  }
-
-  footer > div:first-child > div:nth-child(2) {
-    margin: 0 !important;
-  }
-
-  footer > div:first-child > div:last-child {
-    margin: 0 !important;
-  }
-}
-
 
 /* ---------- player home ---------- */
 
@@ -382,6 +307,145 @@ and (max-device-width : 667px) {
 
 .controls_btns + div button.hidden {
   display: none;  
+}
+
+/* ---------- RESPONSIVE ---------- */
+
+/* PHONE */
+
+@media only screen 
+and (min-device-width : 360px) 
+and (max-device-width : 667px) {
+  .header {
+    width: 100%;
+  }
+
+  .home nav {
+    flex-direction: column !important;
+  }
+
+  .home nav a {
+    justify-content: center;
+  }
+
+  .home nav > div:last-child {
+    align-items: center;
+  }
+
+  .header-RS + div {
+    position: relative;
+    top: 255px;
+  }
+
+  .home > div#mainTitle {
+    height: 30%;
+  }
+
+  .header-RS a {
+    margin: 13px;
+  }
+
+  .musician-line {
+    display: block !important;
+    overflow: auto;
+    white-space: nowrap;
+  }
+
+  .musician-line > div {
+    display: inline-block;
+  }
+
+  .discover > div > div:last-child {
+    display: none !important;
+  }
+  .discover > div > div:first-child {
+    width: 100% !important;
+    align-items: center;
+    text-align: center;
+  }
+
+  .musician > div:last-child {
+    padding-bottom: 50px !important;
+  }
+
+  .discover {
+    height: 360px !important;
+  }
+  .discover > div {
+    height: 360px !important;
+  }
+
+  footer {
+    flex-direction: column;
+    height: auto !important;
+  }
+
+  footer > div:first-child {
+    padding: 20px 0!important;
+    width: 90% !important;
+    margin: auto !important;
+  }
+
+  footer > div:last-child{
+    width: 100% !important;
+   padding: 0 !important;
+  }
+
+  footer > div:last-child form {
+    margin: 0 !important;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+
+  footer > div:first-child > div:nth-child(2) {
+    margin: 0 !important;
+  }
+
+  footer > div:first-child > div:last-child {
+    margin: 0 !important;
+  }
+
+  .player-middle {
+    display: none !important;
+  }
+
+  .player img {
+    display: none;
+  }
+
+  .player > div > div:first-child {
+    width: 35%;
+    flex-direction: row-reverse;
+  }
+
+  .player > div > div:last-child {
+    width: 65%;
+  }
+
+  .player > div > div:last-child button {
+    margin: 1px;
+  }
+
+}
+
+/* IPAD */
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { 
+  .musician-line {
+    display: block !important;
+    overflow: auto;
+    white-space: nowrap;
+  }
+
+  .musician-line > div {
+    display: inline-block;
+  }
+
+  .player-middle {
+    width: 32% !important;
+  }
 }
 
 
