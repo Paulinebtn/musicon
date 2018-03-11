@@ -147,6 +147,81 @@ li {
   text-align: center;
 }
 
+/* PHONE */
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
+  .header {
+    width: 100%;
+  }
+
+  .home nav {
+    flex-direction: column !important;
+  }
+
+  .home nav a {
+    justify-content: center;
+  }
+
+  .home nav > div:last-child {
+    align-items: center;
+  }
+
+  .header-RS + div {
+    position: relative;
+    top: 255px;
+  }
+
+  .home > div#mainTitle {
+    height: 30%;
+  }
+
+  .header-RS a {
+    margin: 13px;
+  }
+
+  .musician-line {
+    display: block !important;
+    overflow: auto;
+    white-space: nowrap;
+  }
+
+  .musician-line > div {
+    display: inline-block;
+  }
+
+  footer {
+    flex-direction: column;
+    height: auto !important;
+  }
+
+  footer > div:first-child {
+    padding: 20px 0!important;
+    width: 90% !important;
+    margin: auto !important;
+  }
+
+  footer > div:last-child{
+    width: 100% !important;
+   padding: 0 !important;
+  }
+
+  footer > div:last-child form {
+    margin: 0 !important;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+
+  footer > div:first-child > div:nth-child(2) {
+    margin: 0 !important;
+  }
+
+  footer > div:first-child > div:last-child {
+    margin: 0 !important;
+  }
+}
+
 
 /* ---------- player home ---------- */
 
@@ -956,7 +1031,58 @@ footer button:hover {
   margin-bottom: 15px;
 }
 
+.account form {
+  margin-left: 2%;
+  margin-right: 2%;
+  align-items: flex-start;
+  margin-bottom: 0;
+}
 
+.btn-primary {
+  background-color: #ACD003 !important;
+  border: none !important;
+  cursor: pointer;
+}
+
+.btn {
+  font-family: "avenir" !important;
+}
+
+.btn-primary:hover {
+  background-color: #c1e808 !important;
+}
+
+.btn-danger {
+  background-color: #C802C9 !important;
+  border: none !important;
+  cursor: pointer;
+}
+
+.btn-danger:hover {
+  background-color: #eb08ec !important;
+}
+
+.account h2 {
+  text-align: left;
+}
+
+.account img {
+  height: 60px;
+  width: auto;
+  text-align: left !important;
+}
+
+.account form select {
+  width: 50%;
+  height: 38px;
+  border: 1px solid lightgray;
+  background: transparent;
+  font-size: 14px;
+}
+
+.account img {
+  display: none;
+}
 /* -------------------- PAGE : MUSICIEN -------------------- */
 
 
@@ -970,19 +1096,21 @@ justify-content: center;
 
 
 .confirmOk > div{
-background-color:green;
+background-color:#408af9;
 color:white;
 padding:10px;
 border-radius:5px;
 display:inline-block;
+margin-bottom: 20px;
 }
 
 .confirmNok > div{
-background-color:red;
+background-color:#408af9;
 color:white;
 padding:10px;
 border-radius:5px;
 display:inline-block;
+margin-bottom: 20px;
 }
 
 /* -------------------- PAGE : CONNEXION -------------------- */
