@@ -829,10 +829,6 @@ footer button {
     border-radius: 5px;
 }
 
-footer button:hover {
-  
-}
-
 ::-webkit-input-placeholder {
   color: lightgrey;
   font-size: 10px;
@@ -998,7 +994,6 @@ footer button:hover {
   height: 60px;
   margin: auto;
   position: relative;
-    top: -22px;
 }
 
 .player2 > div > div {
@@ -1023,6 +1018,9 @@ footer button:hover {
   color: #C802C9;
 }
 
+.player2bis > div {
+  top: -22px;
+}
 /* -------------------- PAGE : MELOMANE -------------------- */
 
 /* 1) Tous les artistes */

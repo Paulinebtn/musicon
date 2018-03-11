@@ -1408,7 +1408,7 @@ if($_POST)
         </section>
     </main>
 
-    <div class="player2">
+    <div class="player2 player2bis">
 		<audio src="" controls></audio>
 		<div>
 			<div class="player-left">
