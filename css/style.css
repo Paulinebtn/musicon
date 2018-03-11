@@ -966,10 +966,14 @@ footer button {
   font-size: 12px;
   outline: none;
   cursor: pointer;
+  border-style: none;
+    border: 0.5px solid lightgray;
+
 }
 
 .melomane main > section{
   margin-top: 140px;
+  
 }
 
 /* ---------- Player2 mélomane - musicien ---------- */
