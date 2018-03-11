@@ -15,5 +15,108 @@
     </div>
 </div>
 <section>
-    <div>// MA BELLE MESSAGERIE //</div>
+    <div class="messagerie">
+        <div class="historique">
+            <div>
+                <div class="search-mess">
+                    <input type="search" placeholder="Rechercher un message">
+                    <button><i class="ti-pencil-alt"></i></button>
+                </div>
+                <div class="mess-list">
+                    <div>
+                        <img src="img/musician12.png">
+                        <div class="mess-txt">
+                            <div>
+                                <div>Bastien</div>
+                                <div>2h00</div>
+                            </div>
+                            <p>Hello les amis les gars ...</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="img/musician12.png">
+                        <div class="mess-txt">
+                            <div>
+                                <div>Bastien</div>
+                                <div>2h00</div>
+                            </div>
+                            <p>Hello les amis les gars ...</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="img/musician12.png">
+                        <div class="mess-txt">
+                            <div>
+                                <div>Bastien</div>
+                                <div>2h00</div>
+                            </div>
+                            <p>Hello les amis les gars ...</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="img/musician12.png">
+                        <div class="mess-txt">
+                            <div>
+                                <div>Bastien</div>
+                                <div>2h00</div>
+                            </div>
+                            <p>Hello les amis les gars ...</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="img/musician12.png">
+                        <div class="mess-txt">
+                            <div>
+                                <div>Bastien</div>
+                                <div>2h00</div>
+                            </div>
+                            <p>Hello les amis les gars ...</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="img/musician12.png">
+                        <div class="mess-txt">
+                            <div>
+                                <div>Bastien</div>
+                                <div>2h00</div>
+                            </div>
+                            <p>Hello les amis les gars ...</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="img/musician12.png">
+                        <div class="mess-txt">
+                            <div>
+                                <div>Bastien</div>
+                                <div>2h00</div>
+                            </div>
+                            <p>Hello les amis les gars ...</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="img/musician12.png">
+                        <div class="mess-txt">
+                            <div>
+                                <div>Bastien</div>
+                                <div>2h00</div>
+                            </div>
+                            <p>Hello les amis les gars ...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="conversation">
+            <div class="name-convers">
+                <div>à :</div>
+                <div> Prénom Nom</div>
+            </div>
+            <div class="convers">
+                conversation
+            </div>
+            <div class="send-mess">
+                <textarea placeholder="Tapez votre message..."></textarea>
+            </div>
+        </div>
+    </div>
 </section>

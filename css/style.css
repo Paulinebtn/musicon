@@ -970,7 +970,6 @@ footer button {
 
 .melomane main > section{
   margin-top: 140px;
-  margin-bottom: 100px;
 }
 
 /* ---------- Player2 mélomane - musicien ---------- */
@@ -1147,7 +1146,170 @@ footer button {
 }
 /* -------------------- PAGE : MUSICIEN -------------------- */
 
+/* 3) messagerie */
 
+.messagerie {
+  display: flex;
+  justify-content: space-between;
+  height: 73%;
+}
+
+.historique {
+  width: 35%;
+
+  border-right: 0.5px solid rgb(234, 236, 240);
+}
+
+.conversation {
+  width: 65%;
+
+}
+
+.historique > div {
+  height: 100%;
+  margin: auto;
+}
+
+.search-mess {
+  height: 90px;
+  padding-left: 6%;
+  padding-right: 6%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.5px solid rgb(234, 236, 240);
+}
+
+.search-mess > input {
+  width: 75%;
+  border: 0;
+  font-size: 18px;
+  outline: none;
+}
+
+.search-mess > input::placeholder {
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.search-mess > button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  outline: none;
+  background-color: #ACD003;
+  color: white;
+  font-size: 18px;
+  border-style: none;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.search-mess > button:hover {
+  background-color: #c1e808;
+}
+
+.mess-list img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.mess-list > div {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  transition-duration: 0.2s;
+  cursor: pointer;
+  border-bottom: 0.5px solid rgb(234, 236, 240);
+  padding-right: 6%;
+  padding-left: 6%;
+}
+
+.mess-list > div:hover {
+  background-color: #ACD003;
+  border-bottom: 0.5px solid #ACD003;
+  color: white;
+}
+
+.mess-list > div:focus {
+  background-color: #ACD003;
+  color: white;
+}
+
+.mess-list > div p {
+  margin: 0;
+}
+
+.mess-txt > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mess-txt {
+  width: 80%;
+}
+
+.mess-list {
+  height: 440px;
+  overflow: scroll;
+  margin-bottom: 60px;
+}
+
+.mess-txt > p {
+  color: rgb(179, 179, 179);
+  font-weight: 200;
+  font-size: 14px;
+}
+
+.conversation {
+  width: 65%;
+}
+
+.name-convers {
+  display: flex;
+  background-color: #F5F7FA;
+  height: 8%;
+  padding-left: 2%;
+  align-items: center;
+}
+
+.name-convers > div:first-child {
+  text-transform: uppercase;
+  margin-right: 5px;
+  font-weight: 200;
+  color: rgb(179, 179, 179);
+}
+
+.name-convers > div:last-child {
+  font-weight: bold;
+}
+
+.convers {
+  padding:2%;
+  height: 70%;
+}
+
+.send-mess {
+  height: 17%; 
+  display:flex;
+}
+
+.send-mess textarea {
+  height: 100%;
+  width: 100%;
+  border: 0;
+  outline: none;
+  font-size: 15px;
+  padding: 2%;
+  border-top: 0.5px solid rgb(234, 236, 240);
+}
+
+.send-mess textarea::placeholder {
+  font-size: 15px;
+  font-weight: 200;
+}
 
 /* ---------------- MESSAGES DE CONFIRMATION ----------------- */
 
