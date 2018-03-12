@@ -1616,7 +1616,7 @@ if($_POST)
 				<a href="#"><img src="img/player-img.png" alt="player-img" class="player-img" id="player_img"/></a>
 				<div>
 					<div id="player_musicien">Nom musicien</div>
-					<div id="player_musique ">Nom chanson</div>
+					<div id="player_musique">Nom chanson</div>
 				</div>
 				<div>
 					<i class="fa fa-heart"></i>
