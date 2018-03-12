@@ -1185,6 +1185,15 @@ footer button {
 }
 /* -------------------- PAGE : MUSICIEN -------------------- */
 
+/* 1) mes créa */
+
+.my-crea .anim-img i:hover {
+  color: #ACD003;
+}
+
+.my-crea .anim-img .tooltip .tooltiptext {
+  background-color: rgba(170, 208, 3, 0.699);
+}
 /* 3) messagerie */
 
 .messagerie {
