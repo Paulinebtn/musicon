@@ -134,19 +134,20 @@ $(".confirmNok").fadeOut(4800);
 var loginScreen = document.getElementById('loginDiv');
 var opacity = document.getElementById('opacity');
 
-setInterval(function () {
-    $('#logUser').click(function(e){
-        e.preventDefault();
-        opacity.style.display = "flex";
-        loginScreen.style.display = "flex";
-    });
+if(opacity != null){
+    setInterval(function () {
+        $('#logUser').click(function(e){
+            e.preventDefault();
+            opacity.style.display = "flex";
+            loginScreen.style.display = "flex";
+        });
 
-    opacity.onclick = function() {
-        loginScreen.style.display = "none";
-        opacity.style.display = "none";
-    };
-}, 1000);
-
+        opacity.onclick = function() {
+            loginScreen.style.display = "none";
+            opacity.style.display = "none";
+        };
+    }, 1000);
+}
 /* filtre */
 
 $(document).ready(function () {
