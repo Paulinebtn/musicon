@@ -1,7 +1,7 @@
 // PLAYER
 
 function playerupdate(titre, musicien, photo) {
-    $('#player_musique ').html(titre);
+    $('#player_musique').html(titre);
     $('#player_musicien').html(musicien);
     document.getElementById('player_img').setAttribute('src', photo);
 
