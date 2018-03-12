@@ -1134,6 +1134,43 @@ footer button {
   margin-top: 20px;
 }
 
+.list-sons {
+  width: 95%;
+  margin: auto;
+}
+
+.list-sons h2 {
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.list-sons > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 83%;
+  height: 35px;
+  border-bottom: 1px solid lightgrey;
+}
+
+#last-div {
+  border-bottom: none;
+}
+
+.list-sons #first-div {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size:15px;
+}
+
+.list-sons i {
+  padding-left: 10px;
+}
+
+#first-div i {
+  visibility: hidden;
+}
+
 /* 3) Mon compte */
 
 .account {
@@ -1493,20 +1530,20 @@ footer button {
 
 .filtre {
   height: 200px;
-    position: fixed;
-    top: 120px;
-    width: 730px;
-    left: 290px;
-    z-index: 1;
-    border-radius: 5px;
-    background-color: white;
-    border: 0.5px solid lightgray;
+  position: fixed;
+  top: 120px;
+  width: 730px;
+  left: 290px;
+  z-index: 1;
+  border-radius: 5px;
+  background-color: white;
+  border: 0.5px solid lightgray;
   display: none; /*GERER EN JS */
 }
 
 /* GERER EN JS */
 .filtre-sortie {
-  display: none;
+  display: flex;
 }
 
 .filtre-genre {
@@ -1522,7 +1559,7 @@ footer button {
 }
 
 .filtre-instru {
-  display: none;
+  display: none !important;
 }
 
 .filtre > div {

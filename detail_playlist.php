@@ -32,9 +32,92 @@ else
 <section class="playlist">
     <div class="list-sons">
         <h2>Playlist 1</h2>
-        <div class='ligne-sons'>
+        <div id="first-div">
+            <div>Titres</div>
+            <div>Auteurs</div>
             <div>
-                <div>Titre</div>
+                <i class="fa fa-play"></i>
+                <i class="fa fa-trash"></i>
+            </div>
+        </div>
+        <div>
+            <div>Titre</div>
+            <div>Auteur</div>
+            <div>
+                <i class="fa fa-play"></i>
+                <i class="fa fa-trash"></i>
+            </div>
+        </div>
+        <div>
+            <div>Titre</div>
+            <div>Auteur</div>
+            <div>
+                <i class="fa fa-play"></i>
+                <i class="fa fa-trash"></i>
+            </div>
+        </div>
+        <div>
+            <div>Titre</div>
+            <div>Auteur</div>
+            <div>
+                <i class="fa fa-play"></i>
+                <i class="fa fa-trash"></i>
+            </div>
+        </div>
+        <div>
+            <div>Titre</div>
+            <div>Auteur</div>
+            <div>
+                <i class="fa fa-play"></i>
+                <i class="fa fa-trash"></i>
+            </div>
+        </div>
+        <div>
+            <div>Titre</div>
+            <div>Auteur</div>
+            <div>
+                <i class="fa fa-play"></i>
+                <i class="fa fa-trash"></i>
+            </div>
+        </div>
+        <div>
+            <div>Titre</div>
+            <div>Auteur</div>
+            <div>
+                <i class="fa fa-play"></i>
+                <i class="fa fa-trash"></i>
+            </div>
+        </div>
+        <div>
+            <div>Titre</div>
+            <div>Auteur</div>
+            <div>
+                <i class="fa fa-play"></i>
+                <i class="fa fa-trash"></i>
+            </div>
+        </div>
+        <div>
+            <div>Titre</div>
+            <div>Auteur</div>
+            <div>
+                <i class="fa fa-play"></i>
+                <i class="fa fa-trash"></i>
+            </div>
+        </div>
+        <div>
+            <div>Titre</div>
+            <div>Auteur</div>
+            <div>
+                <i class="fa fa-play"></i>
+                <i class="fa fa-trash"></i>
+            </div>
+        </div>
+        <div id="last-div">
+            <div>Titre</div>
+            <div>Auteur</div>
+            <div>
+                <i class="fa fa-play"></i>
+                <i class="fa fa-trash"></i>
             </div>
         </div>
     </div>
