@@ -33,6 +33,20 @@ if (artiste != null) {
             container[0].innerHTML = e;
         })
     };
+
+    setInterval(function () {
+        //console.log('je suis appelé');
+        if ($('#ouverturePlaylist')[0]){
+            $('#ouverturePlaylist')[0].onclick = function () {
+                $.get('detail_playlist.php', function (e) {
+                    container[0].innerHTML = e;
+                });
+            }
+        }
+
+    },1000)
+
+
 }
 
 
