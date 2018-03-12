@@ -425,6 +425,10 @@ and (max-device-width : 667px) {
     margin: 1px;
   }
 
+  .img-discover {
+    display: none !important;
+  }
+
 }
 
 /* IPAD */
@@ -444,6 +448,16 @@ and (max-device-width : 1024px)  {
 
   .player-middle {
     width: 32% !important;
+  }
+
+  .img-discover {
+    display: none !important;
+  }
+
+  .discover > div > div {
+    width: 100% !important;
+    align-items: center;
+    text-align: center;
   }
 }
 
