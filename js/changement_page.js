@@ -75,7 +75,7 @@ if (mes_creations != null) {
 
 // recherche
 setInterval(function () {
-    console.log('je suis appelé');
+    //console.log('je suis appelé');
     if ($('#recherche')[0]){
         $('#recherche')[0].onclick = function () {
             //alert('issou');
