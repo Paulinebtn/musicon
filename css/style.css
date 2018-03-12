@@ -641,6 +641,13 @@ h2 + p {
   color: #C802C9;
 }
 
+.img-discover {
+  background: url(../img/music.png);
+  background-size: contain;
+  background-attachment: fixed;
+  background-position: right;
+}
+
 /* ---------- section 2 : decouvrir ---------- */
 
 .discover {
