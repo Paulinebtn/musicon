@@ -150,17 +150,60 @@ if(opacity != null){
 }
 /* filtre */
 
+var list = ['filtre-sortie','filtre-genre','filtre-mood','filtre-top','filtre-instru'];
+var _list = ['srti','genre','mood','top','instru'];
+
+_list.forEach(function(element,index){
+    $(document).on("click",'.btn-'+element,function(){
+        list.forEach(function(_element){
+            _hide(_element);
+        })
+        _block('filtre');
+        _flex(list[index]);
+    })
+})
+
+/*
 $(document).ready(function () {
-    
     $('.btn-srti').click(function () {
-
-        $('.filtre').css( {
-            'display':'block',
-        });
-
-        $('.filtre-sortie').css( {
-                'display':'flex',
-        });
+        _block('filtre');
+        _flex('filtre-sortie');
     });
-
 });
+
+*/
+
+
+$(document).on("click",function(e){
+    if(!$(e.target).hasClass('filtre') && !$(e.target).hasClass('btnfiltre') 
+    && $(e.target).parents('.filtre-sortie').length == 0
+    && $(e.target).parents('.filtre-genre').length == 0
+    && $(e.target).parents('.filtre-mood').length == 0
+    && $(e.target).parents('.filtre-top').length == 0
+    && $(e.target).parents('.filtre-instru').length == 0){
+        _hide('filtre');
+        list.forEach(function(element){
+            _hide(element);
+        })
+    }
+})
+
+
+
+function _hide(className){
+    $('.'+className).css({
+        'display':'none'
+    })
+}
+
+function _flex(className){
+    $('.'+className).css({
+        'display':'flex'
+    })
+}
+
+function _block(className){
+    $('.'+className).css({
+        'display':'block'
+    })
+}

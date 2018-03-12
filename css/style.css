@@ -1554,19 +1554,19 @@ footer button {
 }
 
 .filtre-genre {
-  display:none !important;
+  display:flex;
 }
 
 .filtre-top {
-  display: none;
+  display: flex;
 }
 
 .filtre-mood{
- display: none !important;
+ display: flex;
 }
 
 .filtre-instru {
-  display: none !important;
+  display: flex ;
 }
 
 .filtre > div {
