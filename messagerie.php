@@ -7,11 +7,11 @@
         <a href="melomane.php"><button class="music-space button">Écouter de la musique</button></a>
     </div>
     <div>
-        <button>Sortie</button>
-        <button>Genre</button>
-        <button>Top</button>
-        <button>Mood</button>
-        <button>Instru</button>
+        <button class="btn-srti">Sortie</button>
+        <button class="btn-genre">Genre</button>
+        <button class="btn-top">Top</button>
+        <button class="btn-mood">Mood</button>
+        <button class="btn-instru">Instru</button>
     </div>
 </div>
 <section>

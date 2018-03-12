@@ -21,11 +21,11 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
         <?= $login_button; ?>
     </div>
     <div>
-        <button>Sortie</button>
-        <button>Genre</button>
-        <button>Top</button>
-        <button>Mood</button>
-        <button>Instru</button>
+        <button class="btn-srti">Sortie</button>
+        <button class="btn-genre">Genre</button>
+        <button class="btn-top">Top</button>
+        <button class="btn-mood">Mood</button>
+        <button class="btn-instru">Instru</button>
     </div>
 </div>
 
