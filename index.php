@@ -72,6 +72,9 @@ if($_POST)
   }
 }
 
+$req = $pdo->query("SELECT titre, lien, pseudo, avatar, id FROM songs, user WHERE artiste1 = artiste_id");
+$topMusic = $req->fetchAll(PDO::FETCH_ASSOC);
+
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -146,10 +149,10 @@ if($_POST)
 		<audio src="" controls></audio>
 		<div>
 			<div class="player-left">
-				<a href="#"><img src="img/player-img.png" alt="player-img" class="player-img" /></a>
+				<a href="#"><img src="img/player-img.png" alt="player-img" class="player-img" id="player_img"/></a>
 				<div>
-					<div>Nom musicien</div>
-					<div>Nom chanson</div>
+					<div id="player_musicien">Nom musicien</div>
+					<div id="player_musique">Nom chanson</div>
 				</div>
 				<div>
 					<i class="fa fa-heart"></i>
@@ -207,86 +210,37 @@ if($_POST)
 			<p>Écoutez les tendances du moment et bien plus encore !</p>
 			<div>
 				<div class="musician-line">
-					<div>
-						<figure class="anim-img">
-							<img src="img/musician1.png" alt="sample87"/>
-							<figcaption>
-								<span>
-									<button class="btn-play2"><i class="fa fa-play"></i></button>
-									<button class="btn-pause2 hidden"><i class="fa fa-pause"></i></button>
-								</span>
-								<div class="content-anim">
-									<div>
-										<div class="name-mus">Nom musicien</div>
-										<div>Musique</div>
-									</div>
-									<div>
-									<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
-									</div>
-								</div>
-							</figcaption>
-						</figure>
-					</div>
-					<div>
-						<figure class="anim-img">
-							<img src="img/musician2.png" alt="sample87"/>
-							<figcaption>
-								<span>
-									<button class="btn-play2"><i class="fa fa-play"></i></button>
-									<button class="btn-pause2 hidden"><i class="fa fa-pause"></i></button>
-								</span>
-								<div class="content-anim">
-									<div>
-										<div class="name-mus">Nom musicien</div>
-										<div>Musique</div>
-									</div>
-									<div>
-									<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
-									</div>
-								</div>
-							</figcaption>
-						</figure>
-					</div>
-					<div>
-						<figure class="anim-img">
-							<img src="img/musician3.png" alt="sample87"/>
-							<figcaption>
-								<span>
-									<button class="btn-play2"><i class="fa fa-play"></i></button>
-									<button class="btn-pause2 hidden"><i class="fa fa-pause"></i></button>
-								</span>
-								<div class="content-anim">
-									<div>
-										<div class="name-mus">Nom musicien</div>
-										<div>Musique</div>
-									</div>
-									<div>
-									<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
-									</div>
-								</div>
-							</figcaption>
-						</figure>
-					</div>
-					<div>
-						<figure class="anim-img">
-							<img src="img/musician4.png" alt="sample87"/>
-							<figcaption>
-								<span>
-									<button class="btn-play2"><i class="fa fa-play"></i></button>
-									<button class="btn-pause2 hidden"><i class="fa fa-pause"></i></button>
-								</span>
-								<div class="content-anim">
-									<div>
-										<div class="name-mus">Nom musicien</div>
-										<div>Musique</div>
-									</div>
-									<div>
-									<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
-									</div>
-								</div>
-							</figcaption>
-						</figure>
-					</div>
+                    <?php foreach($topMusic as $data){ ?>
+                        <div>
+                            <figure class="anim-img">
+                                <img src="<?= $data["avatar"]; ?>" alt="sample87"/>
+                                <figcaption>
+						<span>
+							<button class="btn-play2" id="<?= $data["id"]; ?><?= $data["id"]; ?>" onclick="document.getElementById('<?= $data["id"]; ?>').style.display = 'block';
+                                    this.style.display = 'none';
+                                    current_song = 0; songs[0] = '<?= $data["lien"]; ?>';
+                                    player.src = songs[current_song];
+                                    play();
+                                    playerupdate('<?= $data["titre"]; ?>','<?= $data["pseudo"]; ?>','<?= $data["avatar"]; ?>')"><i class="fa fa-play"></i></button>
+							<button class="btn-pause2 hidden" id="<?= $data["id"]; ?>" onclick="pause();
+                                    this.style.display = 'none';
+                                    document.getElementById('<?= $data["id"]; ?><?= $data["id"]; ?>').style.display = 'block';"><i class="fa fa-pause"></i></button>
+						</span>
+                                    <div class="content-anim">
+                                        <div>
+                                            <div class="name-mus"><?= $data["pseudo"]; ?></div>
+                                            <div><?= $data["titre"]; ?></div>
+                                        </div>
+                                        <div>
+
+                                            <i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
+                                        </div>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    <?php } ?>
+
 					<div>
 						<figure class="anim-img">
 							<img src="img/musician5.png" alt="sample87"/>
