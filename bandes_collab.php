@@ -48,8 +48,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ajouter à mon outil musical</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -69,8 +69,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ajouter à mon outil musical</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -90,8 +90,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ajouter à mon outil musical</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -111,8 +111,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ajouter à mon outil musical</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -132,8 +132,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ajouter à mon outil musical</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -153,8 +153,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ajouter à mon outil musical</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -174,8 +174,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ajouter à mon outil musical</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -195,9 +195,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
-							</div>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ajouter à mon outil musical</span></i>
 						</div>
 					</figcaption>
 				</figure>
@@ -221,8 +220,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ajouter à mon outil musical</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -242,8 +241,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ajouter à mon outil musical</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -263,8 +262,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ajouter à mon outil musical</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -284,8 +283,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ajouter à mon outil musical</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -305,8 +304,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ajouter à mon outil musical</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -326,8 +325,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ajouter à mon outil musical</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -347,8 +346,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ajouter à mon outil musical</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -368,8 +367,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ajouter à mon outil musical</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -394,8 +393,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ajouter à mon outil musical</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -415,8 +414,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ajouter à mon outil musical</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -436,8 +435,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ajouter à mon outil musical</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -457,8 +456,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ajouter à mon outil musical</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -478,8 +477,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ajouter à mon outil musical</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -499,8 +498,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ajouter à mon outil musical</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -520,8 +519,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ajouter à mon outil musical</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -541,8 +540,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ajouter à mon outil musical</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -567,8 +566,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ajouter à mon outil musical</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -588,8 +587,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ajouter à mon outil musical</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -609,8 +608,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ajouter à mon outil musical</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -630,8 +629,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ajouter à mon outil musical</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -651,8 +650,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ajouter à mon outil musical</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -672,8 +671,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ajouter à mon outil musical</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -693,8 +692,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ajouter à mon outil musical</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -714,8 +713,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ajouter à mon outil musical</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -740,8 +739,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ajouter à mon outil musical</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -761,8 +760,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ajouter à mon outil musical</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -782,8 +781,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ajouter à mon outil musical</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -803,8 +802,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ajouter à mon outil musical</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -824,8 +823,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ajouter à mon outil musical</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -845,8 +844,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ajouter à mon outil musical</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -866,8 +865,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ajouter à mon outil musical</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -887,8 +886,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ajouter à mon outil musical</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -913,8 +912,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ajouter à mon outil musical</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -934,8 +933,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ajouter à mon outil musical</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -955,8 +954,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ajouter à mon outil musical</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -976,8 +975,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ajouter à mon outil musical</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -997,8 +996,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ajouter à mon outil musical</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -1018,8 +1017,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ajouter à mon outil musical</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -1039,8 +1038,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ajouter à mon outil musical</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -1060,8 +1059,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ajouter à mon outil musical</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -1086,8 +1085,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ajouter à mon outil musical</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -1107,8 +1106,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ajouter à mon outil musical</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -1128,8 +1127,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ajouter à mon outil musical</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -1149,8 +1148,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ajouter à mon outil musical</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -1170,8 +1169,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ajouter à mon outil musical</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -1191,8 +1190,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ajouter à mon outil musical</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -1212,8 +1211,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ajouter à mon outil musical</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -1233,8 +1232,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ajouter à mon outil musical</span></i>
 							</div>
 						</div>
 					</figcaption>

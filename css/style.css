@@ -1027,6 +1027,10 @@ footer button {
 
 /* 1) Tous les artistes */
 
+.list-artist {
+  margin-bottom: 100px;
+}
+
 .ligne-artiste {
   height: 210px;
   margin-top: 22px;
@@ -1060,6 +1064,37 @@ footer button {
 
 /* 2) Bandes sons collab */
 
+.sound-band {
+  margin-bottom: 100px;
+}
+
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 178px;
+  background-color: rgba(201, 2, 201, 0.658);
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 7px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 13px;
+  right: -8px;
+  font-size: 12px;
+  font-family: 'avenir';
+  text-transform: initial;
+  font-weight: bold;
+}
+
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+}
 
 /* 3) Mes playlists */
 
@@ -1071,6 +1106,7 @@ footer button {
 .playlist .artists {
   overflow: hidden;
   white-space: normal;
+  margin-bottom: 100px;
 }
 
 .playlist .artists > div {
@@ -1420,6 +1456,7 @@ footer button {
 .outil + section img {
   width: 100%;
   height: auto;
+  margin-bottom: 60px;
 }
 
 /* ---------------- FILTRES ----------------- */

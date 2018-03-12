@@ -188,8 +188,8 @@ if($_POST)
                                         <div><?= $data["titre"]; ?></div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-heart"></i>
-                                        <i class="fa fa-plus"></i>
+                                       
+                                        <i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -215,8 +215,8 @@ if($_POST)
                                         <div>Musique</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-heart"></i>
-                                        <i class="fa fa-plus"></i>
+                                   
+                                    <i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -236,8 +236,8 @@ if($_POST)
                                         <div>Musique</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-heart"></i>
-                                        <i class="fa fa-plus"></i>
+                                        
+                                    <i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -257,8 +257,8 @@ if($_POST)
                                         <div>Musique</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-heart"></i>
-                                        <i class="fa fa-plus"></i>
+                                        
+                                    <i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -278,8 +278,8 @@ if($_POST)
                                         <div>Musique</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-heart"></i>
-                                        <i class="fa fa-plus"></i>
+                                        
+                                    <i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -299,8 +299,7 @@ if($_POST)
                                         <div>Musique</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-heart"></i>
-                                        <i class="fa fa-plus"></i>
+                                    <i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -320,8 +319,7 @@ if($_POST)
                                         <div>Musique</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-heart"></i>
-                                        <i class="fa fa-plus"></i>
+                                    <i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -341,8 +339,7 @@ if($_POST)
                                         <div>Musique</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-heart"></i>
-                                        <i class="fa fa-plus"></i>
+                                    <i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -362,8 +359,7 @@ if($_POST)
                                         <div>Musique</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-heart"></i>
-                                        <i class="fa fa-plus"></i>
+                                    <i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -388,8 +384,7 @@ if($_POST)
                                         <div>Musique</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-heart"></i>
-                                        <i class="fa fa-plus"></i>
+                                    <i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -409,8 +404,7 @@ if($_POST)
                                         <div>Musique</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-heart"></i>
-                                        <i class="fa fa-plus"></i>
+                                    <i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -430,8 +424,7 @@ if($_POST)
                                         <div>Musique</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-heart"></i>
-                                        <i class="fa fa-plus"></i>
+                                    <i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -451,8 +444,7 @@ if($_POST)
                                         <div>Musique</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-heart"></i>
-                                        <i class="fa fa-plus"></i>
+                                    <i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -472,8 +464,7 @@ if($_POST)
                                         <div>Musique</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-heart"></i>
-                                        <i class="fa fa-plus"></i>
+                                    <i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -493,8 +484,7 @@ if($_POST)
                                         <div>Musique</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-heart"></i>
-                                        <i class="fa fa-plus"></i>
+                                    <i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -514,8 +504,7 @@ if($_POST)
                                         <div>Musique</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-heart"></i>
-                                        <i class="fa fa-plus"></i>
+                                    <i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -535,8 +524,7 @@ if($_POST)
                                         <div>Musique</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-heart"></i>
-                                        <i class="fa fa-plus"></i>
+                                    <i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -561,8 +549,7 @@ if($_POST)
                                         <div>Musique</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-heart"></i>
-                                        <i class="fa fa-plus"></i>
+                                    <i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -582,8 +569,7 @@ if($_POST)
                                         <div>Musique</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-heart"></i>
-                                        <i class="fa fa-plus"></i>
+                                    <i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -603,8 +589,7 @@ if($_POST)
                                         <div>Musique</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-heart"></i>
-                                        <i class="fa fa-plus"></i>
+                                    <i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -624,8 +609,7 @@ if($_POST)
                                         <div>Musique</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-heart"></i>
-                                        <i class="fa fa-plus"></i>
+                                    <i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -645,8 +629,7 @@ if($_POST)
                                         <div>Musique</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-heart"></i>
-                                        <i class="fa fa-plus"></i>
+                                    <i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -666,8 +649,7 @@ if($_POST)
                                         <div>Musique</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-heart"></i>
-                                        <i class="fa fa-plus"></i>
+                                    <i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -687,8 +669,7 @@ if($_POST)
                                         <div>Musique</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-heart"></i>
-                                        <i class="fa fa-plus"></i>
+                                    <i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -708,8 +689,7 @@ if($_POST)
                                         <div>Musique</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-heart"></i>
-                                        <i class="fa fa-plus"></i>
+                                    <i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -734,8 +714,7 @@ if($_POST)
                                         <div>Musique</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-heart"></i>
-                                        <i class="fa fa-plus"></i>
+                                    <i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -755,8 +734,7 @@ if($_POST)
                                         <div>Musique</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-heart"></i>
-                                        <i class="fa fa-plus"></i>
+                                    <i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -776,8 +754,7 @@ if($_POST)
                                         <div>Musique</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-heart"></i>
-                                        <i class="fa fa-plus"></i>
+                                    <i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -797,8 +774,7 @@ if($_POST)
                                         <div>Musique</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-heart"></i>
-                                        <i class="fa fa-plus"></i>
+                                    <i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -818,8 +794,7 @@ if($_POST)
                                         <div>Musique</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-heart"></i>
-                                        <i class="fa fa-plus"></i>
+                                    <i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -839,8 +814,7 @@ if($_POST)
                                         <div>Musique</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-heart"></i>
-                                        <i class="fa fa-plus"></i>
+                                    <i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -860,8 +834,7 @@ if($_POST)
                                         <div>Musique</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-heart"></i>
-                                        <i class="fa fa-plus"></i>
+                                    <i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -881,8 +854,7 @@ if($_POST)
                                         <div>Musique</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-heart"></i>
-                                        <i class="fa fa-plus"></i>
+                                    <i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -907,8 +879,7 @@ if($_POST)
                                         <div>Musique</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-heart"></i>
-                                        <i class="fa fa-plus"></i>
+                                       <i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -928,8 +899,7 @@ if($_POST)
                                         <div>Musique</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-heart"></i>
-                                        <i class="fa fa-plus"></i>
+                                    <i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -949,8 +919,7 @@ if($_POST)
                                         <div>Musique</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-heart"></i>
-                                        <i class="fa fa-plus"></i>
+                                    <i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -970,8 +939,7 @@ if($_POST)
                                         <div>Musique</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-heart"></i>
-                                        <i class="fa fa-plus"></i>
+                                    <i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -991,8 +959,7 @@ if($_POST)
                                         <div>Musique</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-heart"></i>
-                                        <i class="fa fa-plus"></i>
+                                    <i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -1012,8 +979,7 @@ if($_POST)
                                         <div>Musique</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-heart"></i>
-                                        <i class="fa fa-plus"></i>
+                                    <i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -1033,8 +999,7 @@ if($_POST)
                                         <div>Musique</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-heart"></i>
-                                        <i class="fa fa-plus"></i>
+                                    <i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -1054,8 +1019,7 @@ if($_POST)
                                         <div>Musique</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-heart"></i>
-                                        <i class="fa fa-plus"></i>
+                                    <i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -1079,8 +1043,7 @@ if($_POST)
                                         <div>Musique</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-heart"></i>
-                                        <i class="fa fa-plus"></i>
+                                    <i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -1099,8 +1062,7 @@ if($_POST)
                                         <div>Musique</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-heart"></i>
-                                        <i class="fa fa-plus"></i>
+                                    <i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -1120,8 +1082,7 @@ if($_POST)
                                         <div>Musique</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-heart"></i>
-                                        <i class="fa fa-plus"></i>
+                                    <i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -1141,8 +1102,7 @@ if($_POST)
                                         <div>Musique</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-heart"></i>
-                                        <i class="fa fa-plus"></i>
+                                    <i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -1162,8 +1122,7 @@ if($_POST)
                                         <div>Musique</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-heart"></i>
-                                        <i class="fa fa-plus"></i>
+                                    <i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -1183,8 +1142,7 @@ if($_POST)
                                         <div>Musique</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-heart"></i>
-                                        <i class="fa fa-plus"></i>
+                                    <i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -1204,8 +1162,7 @@ if($_POST)
                                         <div>Musique</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-heart"></i>
-                                        <i class="fa fa-plus"></i>
+                                    <i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -1225,8 +1182,7 @@ if($_POST)
                                         <div>Musique</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-heart"></i>
-                                        <i class="fa fa-plus"></i>
+                                    <i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -1251,8 +1207,7 @@ if($_POST)
                                         <div>Musique</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-heart"></i>
-                                        <i class="fa fa-plus"></i>
+                                    <i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -1272,8 +1227,7 @@ if($_POST)
                                         <div>Musique</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-heart"></i>
-                                        <i class="fa fa-plus"></i>
+                                    <i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -1293,8 +1247,7 @@ if($_POST)
                                         <div>Musique</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-heart"></i>
-                                        <i class="fa fa-plus"></i>
+                                    <i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -1314,8 +1267,7 @@ if($_POST)
                                         <div>Musique</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-heart"></i>
-                                        <i class="fa fa-plus"></i>
+                                    <i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -1335,8 +1287,7 @@ if($_POST)
                                         <div>Musique</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-heart"></i>
-                                        <i class="fa fa-plus"></i>
+                                    <i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -1356,8 +1307,7 @@ if($_POST)
                                         <div>Musique</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-heart"></i>
-                                        <i class="fa fa-plus"></i>
+                                    <i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -1377,8 +1327,7 @@ if($_POST)
                                         <div>Musique</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-heart"></i>
-                                        <i class="fa fa-plus"></i>
+                                    <i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -1397,8 +1346,7 @@ if($_POST)
                                         <div>Musique</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-heart"></i>
-                                        <i class="fa fa-plus"></i>
+                                    <i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                                     </div>
                                 </div>
                             </figcaption>

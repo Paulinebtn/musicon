@@ -61,8 +61,7 @@ else
                                     <div><?= $data["titre"]; ?></div>
                                 </div>
                                 <div>
-                                    <i class="fa fa-heart"></i>
-                                    <i class="fa fa-plus"></i>
+								<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                                 </div>
                             </div>
                         </figcaption>
@@ -89,8 +88,7 @@ else
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -110,8 +108,7 @@ else
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -131,8 +128,7 @@ else
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -152,8 +148,7 @@ else
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -173,8 +168,7 @@ else
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -194,8 +188,7 @@ else
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -215,8 +208,7 @@ else
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -236,8 +228,7 @@ else
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -262,8 +253,7 @@ else
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -283,8 +273,7 @@ else
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -304,8 +293,7 @@ else
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -325,8 +313,7 @@ else
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -346,8 +333,7 @@ else
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -367,8 +353,7 @@ else
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -388,8 +373,7 @@ else
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -409,8 +393,7 @@ else
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -435,8 +418,7 @@ else
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -456,8 +438,7 @@ else
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -477,8 +458,7 @@ else
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -498,8 +478,7 @@ else
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -519,8 +498,7 @@ else
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -540,8 +518,7 @@ else
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -561,8 +538,7 @@ else
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -582,8 +558,7 @@ else
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -608,8 +583,7 @@ else
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -629,8 +603,7 @@ else
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -650,8 +623,7 @@ else
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -671,8 +643,7 @@ else
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -692,8 +663,7 @@ else
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -713,8 +683,7 @@ else
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -734,8 +703,7 @@ else
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -755,8 +723,7 @@ else
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -781,8 +748,7 @@ else
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -802,8 +768,7 @@ else
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -823,8 +788,7 @@ else
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -844,8 +808,7 @@ else
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -865,8 +828,7 @@ else
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -886,8 +848,7 @@ else
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -907,8 +868,7 @@ else
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -928,8 +888,7 @@ else
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -953,8 +912,7 @@ else
                             <div>Musique</div>
                         </div>
                         <div>
-                            <i class="fa fa-heart"></i>
-                            <i class="fa fa-plus"></i>
+						<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                         </div>
                     </div>
                 </figcaption>
@@ -973,8 +931,7 @@ else
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -994,8 +951,7 @@ else
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -1015,8 +971,7 @@ else
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -1036,8 +991,7 @@ else
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -1057,8 +1011,7 @@ else
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -1078,8 +1031,7 @@ else
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -1099,8 +1051,7 @@ else
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -1125,8 +1076,7 @@ else
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -1146,8 +1096,7 @@ else
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -1167,8 +1116,7 @@ else
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -1188,8 +1136,7 @@ else
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -1209,8 +1156,7 @@ else
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -1230,8 +1176,7 @@ else
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -1251,8 +1196,7 @@ else
 								<div>Musique</div>
 							</div>
 							<div>
-								<i class="fa fa-heart"></i>
-								<i class="fa fa-plus"></i>
+							<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -1271,8 +1215,7 @@ else
                             <div>Musique</div>
                         </div>
                         <div>
-                            <i class="fa fa-heart"></i>
-                            <i class="fa fa-plus"></i>
+						<i class="fa fa-heart tooltip"><span class="tooltiptext">Ajouter à mes playlists</span></i>
                         </div>
                     </div>
                 </figcaption>
