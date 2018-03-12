@@ -93,8 +93,7 @@ echo "<input type='hidden' value='". $_SESSION["login_user"] ."' id='pls'>";
                                         <div>4 collaborateurs</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-trash"></i>
-                                        <i class="fa fa-plus"></i>
+                                    <i class="fa fa-trash tooltip"><span class="tooltiptext">Effacer ma créa</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -114,8 +113,7 @@ echo "<input type='hidden' value='". $_SESSION["login_user"] ."' id='pls'>";
                                         <div>6 collaborateurs</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-trash"></i>
-                                        <i class="fa fa-plus"></i>
+                                    <i class="fa fa-trash tooltip"><span class="tooltiptext">Effacer ma créa</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -135,8 +133,7 @@ echo "<input type='hidden' value='". $_SESSION["login_user"] ."' id='pls'>";
                                         <div>1 collaborateur</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-trash"></i>
-                                        <i class="fa fa-plus"></i>
+                                    <i class="fa fa-trash tooltip"><span class="tooltiptext">Effacer ma créa</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -156,8 +153,7 @@ echo "<input type='hidden' value='". $_SESSION["login_user"] ."' id='pls'>";
                                         <div>4 collaborateurs</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-trash"></i>
-                                        <i class="fa fa-plus"></i>
+                                    <i class="fa fa-trash tooltip"><span class="tooltiptext">Effacer ma créa</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -177,8 +173,7 @@ echo "<input type='hidden' value='". $_SESSION["login_user"] ."' id='pls'>";
                                         <div>5 collaborateurs</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-trash"></i>
-                                        <i class="fa fa-plus"></i>
+                                    <i class="fa fa-trash tooltip"><span class="tooltiptext">Effacer ma créa</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -198,8 +193,7 @@ echo "<input type='hidden' value='". $_SESSION["login_user"] ."' id='pls'>";
                                         <div>1 collaborateur</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-trash"></i>
-                                        <i class="fa fa-plus"></i>
+                                    <i class="fa fa-trash tooltip"><span class="tooltiptext">Effacer ma créa</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -219,8 +213,7 @@ echo "<input type='hidden' value='". $_SESSION["login_user"] ."' id='pls'>";
                                         <div>2 collaborateurs</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-trash"></i>
-                                        <i class="fa fa-plus"></i>
+                                    <i class="fa fa-trash tooltip"><span class="tooltiptext">Effacer ma créa</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -240,8 +233,7 @@ echo "<input type='hidden' value='". $_SESSION["login_user"] ."' id='pls'>";
                                         <div>3 collaborateurs</div>
                                     </div>
                                     <div>
-                                        <i class="fa fa-trash"></i>
-                                        <i class="fa fa-plus"></i>
+                                    <i class="fa fa-trash tooltip"><span class="tooltiptext">Effacer ma créa</span></i>
                                     </div>
                                 </div>
                             </figcaption>
@@ -463,7 +455,6 @@ echo "<input type='hidden' value='". $_SESSION["login_user"] ."' id='pls'>";
 				</div>
 				<div>
 					<i class="fa fa-heart"></i>
-					<i class="fa fa-plus"></i>
 				</div>
 			</div>
 			<div class="player-middle">

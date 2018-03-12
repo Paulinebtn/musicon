@@ -32,8 +32,7 @@
 								<div>4 collaborateurs</div>
 							</div>
 							<div>
-								<i class="fa fa-trash"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-trash tooltip"><span class="tooltiptext">Effacer ma créa</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -53,8 +52,7 @@
 								<div>6 collaborateurs</div>
 							</div>
 							<div>
-								<i class="fa fa-trash"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-trash tooltip"><span class="tooltiptext">Effacer ma créa</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -74,8 +72,7 @@
 								<div>1 collaborateur</div>
 							</div>
 							<div>
-								<i class="fa fa-trash"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-trash tooltip"><span class="tooltiptext">Effacer ma créa</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -95,8 +92,7 @@
 								<div>4 collaborateurs</div>
 							</div>
 							<div>
-								<i class="fa fa-trash"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-trash tooltip"><span class="tooltiptext">Effacer ma créa</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -116,8 +112,7 @@
 								<div>5 collaborateurs</div>
 							</div>
 							<div>
-								<i class="fa fa-trash"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-trash tooltip"><span class="tooltiptext">Effacer ma créa</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -137,8 +132,7 @@
 								<div>1 collaborateur</div>
 							</div>
 							<div>
-								<i class="fa fa-trash"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-trash tooltip"><span class="tooltiptext">Effacer ma créa</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -158,8 +152,7 @@
 								<div>2 collaborateurs</div>
 							</div>
 							<div>
-								<i class="fa fa-trash"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-trash tooltip"><span class="tooltiptext">Effacer ma créa</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -179,8 +172,7 @@
 								<div>3 collaborateurs</div>
 							</div>
 							<div>
-								<i class="fa fa-trash"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-trash tooltip"><span class="tooltiptext">Effacer ma créa</span></i>
 							</div>
 						</div>
 					</figcaption>

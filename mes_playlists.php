@@ -48,8 +48,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Nombre de titres</div>
 							</div>
 							<div>
-								<i class="fa fa-trash"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-trash tooltip"><span class="tooltiptext">Effacer ma playlist</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ouvrir ma playlist</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -69,8 +69,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Nombre de titres</div>
 							</div>
 							<div>
-								<i class="fa fa-trash"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-trash tooltip"><span class="tooltiptext">Effacer ma playlist</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ouvrir ma playlist</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -90,8 +90,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Nombre de titres</div>
 							</div>
 							<div>
-								<i class="fa fa-trash"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-trash tooltip"><span class="tooltiptext">Effacer ma playlist</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ouvrir ma playlist</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -111,8 +111,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Nombre de titres</div>
 							</div>
 							<div>
-								<i class="fa fa-trash"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-trash tooltip"><span class="tooltiptext">Effacer ma playlist</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ouvrir ma playlist</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -132,8 +132,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Nombre de titres</div>
 							</div>
 							<div>
-								<i class="fa fa-trash"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-trash tooltip"><span class="tooltiptext">Effacer ma playlist</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ouvrir ma playlist</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -153,8 +153,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Nombre de titres</div>
 							</div>
 							<div>
-								<i class="fa fa-trash"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-trash tooltip"><span class="tooltiptext">Effacer ma créa</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ouvrir ma playlist</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -174,8 +174,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Nombre de titres</div>
 							</div>
 							<div>
-								<i class="fa fa-trash"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-trash tooltip"><span class="tooltiptext">Effacer ma playlist</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ouvrir ma playlist</span></i>
 							</div>
 						</div>
 					</figcaption>
@@ -195,8 +195,8 @@ $login_button = '<a href="musicien.php"><button class="create-music button"  id=
 								<div>Nombre de titres</div>
 							</div>
 							<div>
-								<i class="fa fa-trash"></i>
-								<i class="fa fa-plus"></i>
+								<i class="fa fa-trash tooltip"><span class="tooltiptext">Effacer ma playlist</span></i>
+								<i class="fa fa-plus tooltip"><span class="tooltiptext">Ouvrir ma playlist</span></i>
 							</div>
 						</div>
 					</figcaption>
