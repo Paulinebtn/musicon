@@ -968,6 +968,7 @@ footer button {
 .head-melomane > div:first-child i {
   position: relative;
   right: 20px;
+  cursor: pointer;
 }
 
 .head-melomane > div:last-child {
@@ -1351,6 +1352,7 @@ footer button {
 .mess-txt > div {
   display: flex;
   justify-content: space-between;
+  font-weight: bold;
 }
 
 .mess-txt {
@@ -1364,7 +1366,6 @@ footer button {
 }
 
 .mess-txt > p {
-  color: rgb(179, 179, 179);
   font-weight: 200;
   font-size: 14px;
 }
@@ -1467,12 +1468,12 @@ footer button {
 }
 
 .ball-outil {
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
   background-color: #ACD003;
   position: absolute;
-  top: 31px;
+  top: 35px;
 }
 
 .outil-mus > div:nth-child(2) {
@@ -1503,6 +1504,7 @@ footer button {
 .outil-mus  i {
   cursor: pointer;
   transition-duration: 0.4s;
+  font-size: 18px;
 }
 
 .outil-mus  i:hover {

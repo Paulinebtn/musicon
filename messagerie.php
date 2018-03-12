@@ -19,7 +19,7 @@
         <div class="historique">
             <div>
                 <div class="search-mess">
-                    <input type="search" placeholder="Rechercher un message">
+                    <input type="search" placeholder="Rechercher un membre Muzic On">
                     <button><i class="ti-pencil-alt"></i></button>
                 </div>
                 <div class="mess-list">
