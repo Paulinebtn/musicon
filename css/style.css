@@ -656,7 +656,7 @@ h2 + p {
 }
 
 .img-discover {
-  background: url(../img/music.png);
+  background: url(../img/music.png) no-repeat;
   background-size: contain;
   background-attachment: fixed;
   background-position: right;
