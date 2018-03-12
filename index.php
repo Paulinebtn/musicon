@@ -505,7 +505,7 @@ $topMusic = $req->fetchAll(PDO::FETCH_ASSOC);
 					<div>06 45 65 45 65</div>
 				</div>
 				<div class="next-pages">
-					<div><a href="#">Qui sommes-nous?</a></div>
+					<div><a href="qui-sommes-nous.html">Qui sommes-nous?</a></div>
 					<div><a href="#">Mentions légales</a></div>
 					<div><a href="#">CGU</a></div>
 				</div>

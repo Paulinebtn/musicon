@@ -151,9 +151,7 @@ setInterval(function () {
 
 $(document).ready(function () {
     
-    $('.btn-sorti').click(function () {
-        
-        console.log('lol');
+    $('.btn-srti').click(function () {
 
         $('.filtre').css( {
             'display':'block',
@@ -163,4 +161,5 @@ $(document).ready(function () {
                 'display':'flex',
         });
     });
+
 });
